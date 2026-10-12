@@ -1,0 +1,14 @@
+{
+  "schema_version": "qasper_review_confirmation_v1",
+  "study_id": "qasper_test_v1",
+  "human_reviewers": true,
+  "independent_reviews": true,
+  "reviewer_ids": [
+    "reviewer_01",
+    "reviewer_02",
+    "reviewer_03",
+    "reviewer_04",
+    "reviewer_05"
+  ],
+  "statement": "The coordinator confirms that these records were independently completed by five human reviewers; legacy template flags were corrected."
+}

@@ -1,0 +1,1455 @@
+{
+  "schema_version": "qasper_blind_review_v1",
+  "rubric_version": "five_reviewers_v2",
+  "ordering_policy": "stable_random_by_reviewer_id",
+  "study_id": "qasper_test_v1",
+  "reviewer_id": "reviewer_05",
+  "independent": true,
+  "ratings": {
+    "R001": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s003-p009 表明 Spedding 已将3.2判为混合作者；回答却称其原为单一作者，并把4.1—4.2也说成更晚切换。s003-p010 未支持后一断言。"
+    },
+    "R002": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R003": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R004": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R005": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R006": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000 声称提速40%，但同段写Post-LN在500k、Pre-LN在700k达到相似损失，更新次数与提速方向矛盾；事实关系和引用支持保留不确定。"
+    },
+    "R007": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R008": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "unsure",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s002-p000、s003-p000有多个实验语言集合，表格名单缺失，完整性不能可靠确认。"
+    },
+    "R009": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R010": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R011": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R012": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s016-p000 的六种claim validation模型属实，但题目未限定此任务；漏了s010-p000的AtheneMLP、USE+Attent及s013-p001的rankingESIM、Tf-Idf等实验配置。"
+    },
+    "R013": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R014": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s001-p000 的104种语言是M-BERT预训练范围，不能当作本文实验范围；还漏了s003-p000的41种POS语言。"
+    },
+    "R015": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "s014-p000 的15语言XLM只用于第一阶段初始化；回答没有列出本文两/三语言预训练使用的English、Chinese、French，未回答语言名称和阶段范围。"
+    },
+    "R016": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s001-p006—p008的相关工作可启发未来设计，但不能确认其改进效果能转移到本文；相应事实关系及引用支持保留不确定。"
+    },
+    "R017": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "s014-p000 的15语言XLM只用于第一阶段初始化；回答没有列出本文两/三语言预训练使用的English、Chinese、French，未回答语言名称和阶段范围。"
+    },
+    "R018": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R019": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R020": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R021": {
+      "relevant": "no",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p000 明确评价对象是computers、wireless routers、speakers；回答给出研究领域“方面情感分析”，未答意见所属产品领域。关于研究方法的已陈述事实有依据。"
+    },
+    "R022": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R023": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s005-p001—p004 所列Google NMT校正未独立覆盖；全局归一化是解释/训练框架。"
+    },
+    "R024": {
+      "relevant": "no",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p000 明确评价对象是computers、wireless routers、speakers；回答给出研究领域“方面情感分析”，未答意见所属产品领域。关于研究方法的已陈述事实有依据。"
+    },
+    "R025": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R026": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s005-p001—p004 所列Google NMT校正未独立覆盖；全局归一化是解释/训练框架。"
+    },
+    "R027": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R028": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R029": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s006-p001—p003 的三项是语法正确、拼写正确、显式问句；“well-formedness”过于总括，语义等价是s006-p006的问句对另项，回答未明确语法和拼写。"
+    },
+    "R030": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R031": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R032": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R033": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R034": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R035": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s007-p004支持precision/recall作为F1组成量，但没有说明其独立报告情况；指标范围保留不确定。"
+    },
+    "R036": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "只覆盖s003-p003的第二组实验，未包括s003-p002的argument component detection、ACE实体/事件检测、POS、chunking及其他NER任务。"
+    },
+    "R037": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s001-p001 明确目标是按结构化摘要标题自动赋标签，只人工核验少量标题样本；“摘要章节被人工标注”混淆人工筛选与全体样本赋标签。"
+    },
+    "R038": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s015-p000 的0.4—1.7个百分点是相对既有最佳结果而非M-BERT；s027-p002 的20/5点仅适用于在线讨论，漏了新闻数据3至略高于1点的差异。"
+    },
+    "R039": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R040": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R041": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R042": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R043": {
+      "relevant": "no",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s007-p002 明确给出Amazon Book Review约142百万句且约为BookCorpus两倍；文字拒答“未给出长度”不成立，约71百万句也可由比例估计。没有对应引用。"
+    },
+    "R044": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s001-p006—p008的相关工作可启发未来设计，但不能确认其改进效果能转移到本文；相应事实关系及引用支持保留不确定。"
+    },
+    "R045": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s008-p000 的Is Reply关系冲突；缺少s000-p001所述训练属性分类器并以可预测性判断编码的方法。"
+    },
+    "R046": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R047": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R048": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "unsure",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s017-p003 的0.5点差和两个准确率冲突；Daily Mail具体表格结果缺失，不能确认完整性。"
+    },
+    "R049": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s009-p004 的LSTM是对比基线MTL-LSTM，本文架构是s000-p003/s000-p006的Transformer；把两者并列为本文其余架构，混淆系统主体。"
+    },
+    "R050": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s011-p001 明列AllText和F8W基线而回答未给；还漏了s013-p000的RNN Seq2seq及s014-p003的Localness/Context-Aware SANs等比较对象。"
+    },
+    "R051": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R052": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p003—p004给出两个电影数据集的具体名称IMDB与MR；回答仅说“两种电影评论子数据集”，未完整标识这些数据集。"
+    },
+    "R053": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "s002-p000 的集合重叠情况缺失，不能确认“16 other”的事实和引用支持。"
+    },
+    "R054": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s003-p002 的语言特征allCaps被归为心理类；s004-p003仅描述预处理。"
+    },
+    "R055": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R056": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000 声称提速40%，但同段写Post-LN在500k、Pre-LN在700k达到相似损失，更新次数与提速方向矛盾；事实关系和引用支持保留不确定。"
+    },
+    "R057": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s005-p003 的Google NMT校正遗漏。"
+    },
+    "R058": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s003-p000 的41语言POS实验未覆盖；s006-p001和s013-p000还涉及Urdu/Hindi等跨语言实验。现有已陈述内容受引用支持。"
+    },
+    "R059": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R060": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "遗漏s003-p004的句法消歧核心挑战；关于扩展性的引文s002-p002只列领域/低资源等问题，扩展性实际在s000-p003，关键引用未覆盖。"
+    },
+    "R061": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "将s003-p004的NMT训练数据不足归为SW实现障碍，范围不确定；还遗漏运行时及多资源整合。"
+    },
+    "R062": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R063": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s005-p002 的情感类形容词及主动语态模式未明确给出。"
+    },
+    "R064": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R065": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s001-p001 对Gate仅说明网页协作框架，丰富可视化及缺少结果分析是紧接着对Brat的描述；Gate是否具备这些性质无法确认，引用不支持其新增功能断言。"
+    },
+    "R066": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000 声称提速40%，但同段写Post-LN在500k、Pre-LN在700k达到相似损失，更新次数与提速方向矛盾；事实关系和引用支持保留不确定。"
+    },
+    "R067": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R068": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p001 的主要易混淆方言结果被遗漏。"
+    },
+    "R069": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s001-p001 的相关工作不等于本文方法已具备共指任务适用性；s005-p007只涉及数据选择。"
+    },
+    "R070": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R071": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R072": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R073": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s002-p001 的主要来源New York Times、s002-p004的辅助来源Japan Times均未点名；“若干新闻网站”没有充分回答来源。"
+    },
+    "R074": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R075": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R076": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R077": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R078": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p003—p004给出两个电影数据集的具体名称IMDB与MR；回答仅说“两种电影评论子数据集”，未完整标识这些数据集。"
+    },
+    "R079": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R080": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "s010-p000未明确两数据集名称；其名称与方法映射在s012-p002—p003，引用没有覆盖。"
+    },
+    "R081": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s011-p001 明列AllText和F8W基线而回答未给；还漏了s013-p000的RNN Seq2seq及s014-p003的Localness/Context-Aware SANs等比较对象。"
+    },
+    "R082": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R083": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R084": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "缺少s003-p003的多资源整合，s000-p003所述一般MT扩展性与回答的SW范围没有明确对应。"
+    },
+    "R085": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R086": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "s010-p000未明确两数据集名称；其名称与方法映射在s012-p002—p003，引用没有覆盖。"
+    },
+    "R087": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R088": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R089": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R090": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R091": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R092": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R093": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s001-p000 的BIBREF6是Knowtator而非Stanford工具，回答的文献归属有误。"
+    },
+    "R094": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R095": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R096": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s004-p017—p019是理论表达能力界限，不能直接证明实验测试了全部一般/简化实时候选语言；s004-p018只说无法表示某一确定上下文无关语言，回答泛化成整个类别。计数及反转实验本身有s010/s012依据。"
+    },
+    "R097": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R098": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R099": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s001-p001 的标题聚类及自动标注流程未完整交代；人工检查仅针对少量样本。"
+    },
+    "R100": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R101": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R102": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s003-p002 的粗口词比例缺失，文本特征清单不完整。"
+    },
+    "R103": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R104": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "unsure",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s017-p003 的0.5点差和两个准确率冲突；Daily Mail具体表格结果缺失，不能确认完整性。"
+    },
+    "R105": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R106": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R107": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R108": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s003-p003 用现有AllenNLP模型评价，模型本身不是评价数据集，最后条目类别错误。"
+    },
+    "R109": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R110": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s007-p004支持precision/recall作为F1组成量，但没有说明其独立报告情况；指标范围保留不确定。"
+    },
+    "R111": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R112": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "s009-p001 未确认两类方法的结合适用性，只提出未来探索。"
+    },
+    "R113": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R114": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R115": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s015-p000 的0.4—1.7个百分点是相对既有最佳结果而非M-BERT；s027-p002 的20/5点仅适用于在线讨论，漏了新闻数据3至略高于1点的差异。"
+    },
+    "R116": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R117": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R118": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R119": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R120": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s004-p017—p019是理论表达能力界限，不能直接证明实验测试了全部一般/简化实时候选语言；s004-p018只说无法表示某一确定上下文无关语言，回答泛化成整个类别。计数及反转实验本身有s010/s012依据。"
+    },
+    "R121": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "s003-p004 的NMT数据问题被表述成SW实施限制，范围不确定；句法和运行时挑战未给出。"
+    },
+    "R122": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "s006-p000 未给与seq2seq同排名的成人bot的多数调情数据，无法确认该附加比较。"
+    },
+    "R123": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s011-p002 的三种预训练对比和s014-p003—p004的MT比较对象遗漏。"
+    },
+    "R124": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000 声称提速40%，但同段写Post-LN在500k、Pre-LN在700k达到相似损失，更新次数与提速方向矛盾；事实关系和引用支持保留不确定。"
+    },
+    "R125": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "只覆盖s003-p003的第二组实验，未包括s003-p002的argument component detection、ACE实体/事件检测、POS、chunking及其他NER任务。"
+    },
+    "R126": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R127": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R128": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s007-p002 已提供长度和比例，开头的否定表述不可靠；缺少BookCorpus约71百万句，序列长度不能代替语料规模。"
+    },
+    "R129": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R130": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R131": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R132": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R133": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s006-p002 讨论避免不当gender signal保留；回答末句“appropriately”所限定的信号未明确，不能确认这一附加关系。"
+    },
+    "R134": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R135": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s016-p000 的六种claim validation模型属实，但题目未限定此任务；漏了s010-p000的AtheneMLP、USE+Attent及s013-p001的rankingESIM、Tf-Idf等实验配置。"
+    },
+    "R136": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R137": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s011-p002 的三种预训练对比和s014-p003—p004的MT比较对象遗漏。"
+    },
+    "R138": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R139": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R140": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R141": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s006-p006 明确普通长度归一化无额外参数，梯度调参针对GNMT校正；回答说可调“词奖励或长度归一化”，同时遗漏GNMT校正，混淆方法及其训练步骤。"
+    },
+    "R142": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R143": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R144": {
+      "relevant": "no",
+      "factual": "unsure",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "未展示有效答案。"
+    },
+    "R145": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s004-p000 的实际性能指标是MAE/RMSE；专家检测属于其他工作、统计分析/徽章是分析过程或属性，不能并作本文质量度量。s012-p001不支持expert detection，s000-p000不支持social voting。"
+    },
+    "R146": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R147": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s009-p004 的LSTM是对比基线MTL-LSTM，本文架构是s000-p003/s000-p006的Transformer；把两者并列为本文其余架构，混淆系统主体。"
+    },
+    "R148": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R149": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s004-p000 的MAE/RMSE可确认，徽章/领域和奖励是否也属于题目所问“质量度量”范围无法可靠确认。"
+    },
+    "R150": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R151": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R152": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R153": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R154": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R155": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "Japan Times来源在s002-p004，展示回答仅引s002-p001、s002-p000、s002-p002，所引段落没有Japan Times；事实受全文支持但引用组合不完整。"
+    },
+    "R156": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "“两阶段用时更少且准确率略高”确在s009-p002，展示回答只引s009-p001、s010-p000、s008-p001及s008-p000，没有引用支持训练时间比较的段落。"
+    },
+    "R157": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R158": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R159": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R160": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R161": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p001 的Minnan/Kekka及Hebei/Shanxi辨识困难未报告。"
+    },
+    "R162": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R163": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R164": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R165": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R166": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s006-p001—p003 明确列出三项，回答却称未明确详述；把s019-p000的context sensitivity列为实际质量判断维度，没有依据。"
+    },
+    "R167": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s001-p006—p008的相关工作可启发未来设计，但不能确认其改进效果能转移到本文；相应事实关系及引用支持保留不确定。"
+    },
+    "R168": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R169": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R170": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s016-p000 的SVM、s013-p001的Tf-Idf以及s010-p000中的具体组合未覆盖；已给出的模型家族有原文依据。"
+    },
+    "R171": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s006-p001—p003 明确给出语法、拼写、显式问句，回答称未详述并给出另组三项；语义等价属s006-p006的问句对评价，漏掉语法/拼写明确区分。"
+    },
+    "R172": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R173": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R174": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R175": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "s009-p000的两阶段BLSTM优势未引用，s009-p001关系属于三阶段；还遗漏s008-p001的辨识困难。"
+    },
+    "R176": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R177": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R178": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s001-p006—p008的相关工作可启发未来设计，但不能确认其改进效果能转移到本文；相应事实关系及引用支持保留不确定。"
+    },
+    "R179": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": ""
+    },
+    "R180": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s009-p000 的距离删除实验观察预测准确率下降；回答把其他噪声实验的BLEU指标移用于此实验，s006-p000、s021-p000不能证明这一对应关系。"
+    }
+  },
+  "reviewed_count": 180,
+  "expected_count": 180,
+  "complete": true,
+  "record_type": "actual_human_review",
+  "human_labels_created": true
+}

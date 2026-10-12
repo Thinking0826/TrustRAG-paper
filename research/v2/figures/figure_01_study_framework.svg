@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="183mm" height="123.825mm" viewBox="0 0 518.740157 351" font-family="Helvetica" font-size="6" fill="#20354D" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Controlled evidence study and diagnostic contrasts</title>
+<desc id="figure-description">An editable study schematic. The main QASPER experiment uses a shared BGE-M3 and BM25 retrieval pool, four selectors, three complete-input limits, and fixed Qwen2.5 deployments. Only dependencies differ in the density-closure pair. Five independent reviewers assess 180 main-test outputs. Three complementary studies isolate training-split planner activation, whole-paragraph human-evidence selection headroom on the previously evaluated QASPER test questions, and order alone on independent LongBench examples. Human annotations supply input only in the post hoc oracle diagnostic. The study contains 7,600 distinct responses, including 400 new oracle and 800 LongBench responses; reused controls do not add observations.</desc>
+<rect x="0" y="0" width="518.740157" height="351" rx="0" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<g id="panel-a-heading">
+<text x="14" y="12" font-size="7" font-weight="700" fill="#20354D" text-anchor="start">a</text>
+<text x="26" y="12" font-size="7" font-weight="700" fill="#20354D" text-anchor="start">Common evidence</text>
+<text x="504" y="12" font-size="6" font-weight="400" fill="#475F77" text-anchor="end">Main QASPER experiment: shared pool</text>
+</g>
+<g id="paper-and-question">
+<text x="53" y="26" font-size="7" font-weight="700" fill="#20354D" text-anchor="middle">QASPER</text>
+<polygon points="18,35 40,35 46,41 46,70 18,70" fill="#E0EDF9" stroke="#7FACD4" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M40 35 V41 H46" fill="none" stroke="#7FACD4" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="23,30 45,30 51,36 51,65 23,65" fill="#CBE3F9" stroke="#2766A4" stroke-width="0.85" stroke-linejoin="round"/>
+<path d="M45 30 V36 H51" fill="none" stroke="#2766A4" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M29 43 H44 M29 48 H40 M29 53 H44 M29 58 H39" fill="none" stroke="#2766A4" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M61 38 H79 C85 38 88 41 88 46 V58 C88 62 85 65 81 65 H71 L63 71 V65 H61 C57 65 55 62 55 58 V45 C55 41 57 38 61 38 Z" fill="#83B4E5" stroke="#2766A4" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="71.5" y="54" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">Q</text>
+<text x="35" y="78" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Paper</text>
+<text x="71.5" y="78" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Question</text>
+</g>
+<g id="parallel-dense-sparse-retrieval">
+<text x="151" y="26" font-size="7" font-weight="700" fill="#20354D" text-anchor="middle">Dense + sparse</text>
+<path d="M91 51 H98 M98 40 V60" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M98 40 L103 40" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="106,40 103,41.5 103,38.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M98 60 L103 60" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="106,60 103,61.5 103,58.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<rect x="109" y="31" width="87" height="18" rx="9" fill="#387FC8" stroke="none" stroke-width="0"/>
+<rect x="109" y="51" width="87" height="18" rx="9" fill="#CBE3F9" stroke="none" stroke-width="0"/>
+<circle cx="120" cy="36.5" r="1.7" fill="#FFFFFF" stroke="none" stroke-width="0.6"/>
+<circle cx="127" cy="40" r="1.7" fill="#FFFFFF" stroke="none" stroke-width="0.6"/>
+<circle cx="120" cy="43.5" r="1.7" fill="#FFFFFF" stroke="none" stroke-width="0.6"/>
+<path d="M121.5 37 L125.5 39 M121.5 43 L125.5 41" fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="159.5" y="42.6" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">BGE-M3</text>
+<path d="M118 56.5 H129 M118 60 H125 M118 63.5 H128" fill="none" stroke="#2766A4" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="159.5" y="62.6" font-size="7" font-weight="700" fill="#2766A4" text-anchor="middle">BM25</text>
+<text x="151" y="78" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Up to 30 paragraphs each</text>
+<path d="M199 40 H208 L220 50 M199 60 H208 L220 50" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M220 50 L225 50" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="228,50 225,51.5 225,48.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="fusion-and-reranking">
+<text x="288" y="26" font-size="7" font-weight="700" fill="#20354D" text-anchor="middle">Fusion + reranking</text>
+<polygon points="230,31 266,31 259,57 253,62 253,68 243,68 243,62 237,57" fill="#A56FCF" stroke="#713E9F" stroke-width="0.8" stroke-linejoin="round"/>
+<path d="M236 37 H260 M239 42 H257 M241 47 H254 M243 52 H252" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="248" y="78" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">RRF (k = 60)</text>
+<path d="M267 50 L275 50" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="278,50 275,51.5 275,48.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<rect x="281" y="34" width="59" height="8" rx="4" fill="#8951BA" stroke="none" stroke-width="0"/>
+<rect x="281" y="47" width="49" height="8" rx="4" fill="#A671CD" stroke="none" stroke-width="0"/>
+<rect x="281" y="60" width="40" height="8" rx="4" fill="#C5A0E2" stroke="none" stroke-width="0"/>
+<text x="310.5" y="40.2" font-size="6.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Top 20</text>
+<text x="309" y="78" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">List expansion</text>
+<path d="M344 50 L369 50" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="372,50 369,51.5 369,48.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="original-text-pool">
+<text x="439" y="26" font-size="7" font-weight="700" fill="#20354D" text-anchor="middle">Original-text pool</text>
+<polygon points="377,29 475,29 482,36 482,64 377,64" fill="#FFE8BE" stroke="#DCB579" stroke-width="0.65" stroke-linejoin="round"/>
+<path d="M475 29 V36 H482" fill="none" stroke="#DCB579" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="384,33 482,33 489,40 489,68 384,68" fill="#FFD18A" stroke="#D6A057" stroke-width="0.75" stroke-linejoin="round"/>
+<path d="M482 33 V40 H489" fill="none" stroke="#D6A057" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="391,37 489,37 496,44 496,72 391,72" fill="#EEAA43" stroke="#9B6224" stroke-width="0.85" stroke-linejoin="round"/>
+<path d="M489 37 V44 H496" fill="none" stroke="#9B6224" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M399 45 H456 M461 45 H485 M399 51 H473 M399 57 H441 M447 57 H484" fill="none" stroke="#9B6224" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="442" y="67" font-size="7" font-weight="700" fill="#794719" text-anchor="middle">Original text</text>
+<path d="M442 75 V82 H259 V91" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="259,94 257.5,91 260.5,91" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="panel-b-heading">
+<text x="14" y="88" font-size="7" font-weight="700" fill="#20354D" text-anchor="start">b</text>
+<text x="26" y="88" font-size="7" font-weight="700" fill="#20354D" text-anchor="start">Budgeted selection</text>
+<text x="504" y="88" font-size="6" font-weight="400" fill="#475F77" text-anchor="end">Shared complete-input limit</text>
+</g>
+<g id="shared-selection-route">
+<path d="M73 94 H445" fill="none" stroke="#93ADC1" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M73 94 L73 95" fill="none" stroke="#527087" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="73,98 71.5,95 74.5,95" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M197 94 L197 95" fill="none" stroke="#527087" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="197,98 195.5,95 198.5,95" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M321 94 L321 95" fill="none" stroke="#527087" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="321,98 319.5,95 322.5,95" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M445 94 L445 95" fill="none" stroke="#527087" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="445,98 443.5,95 446.5,95" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="ranked-paragraphs">
+<text x="73" y="108" font-size="7" font-weight="700" fill="#2766A4" text-anchor="middle">Ranked paragraphs</text>
+<text x="73" y="118" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Keep whole passages</text>
+<polygon points="19,125 117,125 127,135 127,185 19,185" fill="#CBE3F9" stroke="#2766A4" stroke-width="0.8" stroke-linejoin="round"/>
+<path d="M117 125 V135 H127" fill="none" stroke="#2766A4" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="32" cy="136" r="6" fill="#387FC8" stroke="none" stroke-width="0.6"/>
+<text x="32" y="138.2" font-size="6.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">P1</text>
+<path d="M45 132 H112 M45 136 H104 M45 140 H116" fill="none" stroke="#2766A4" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="32" cy="155" r="6" fill="#387FC8" stroke="none" stroke-width="0.6"/>
+<text x="32" y="157.2" font-size="6.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">P2</text>
+<path d="M45 151 H112 M45 155 H104 M45 159 H116" fill="none" stroke="#2766A4" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="32" cy="174" r="6" fill="#387FC8" stroke="none" stroke-width="0.6"/>
+<text x="32" y="176.2" font-size="6.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">P3</text>
+<path d="M45 170 H112 M45 174 H104 M45 178 H116" fill="none" stroke="#2766A4" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="ranked-sentences">
+<text x="197" y="108" font-size="7" font-weight="700" fill="#713E9F" text-anchor="middle">Ranked sentences</text>
+<text x="197" y="118" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Pack separate sentences</text>
+<circle cx="154" cy="130" r="4.5" fill="#D7BAEB" stroke="none" stroke-width="0.6"/>
+<text x="154" y="132" font-size="6" font-weight="700" fill="#713E9F" text-anchor="middle">S1</text>
+<path d="M166 130 H244" fill="none" stroke="#8951BA" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="154" cy="140" r="4.5" fill="#D7BAEB" stroke="none" stroke-width="0.6"/>
+<text x="154" y="142" font-size="6" font-weight="700" fill="#713E9F" text-anchor="middle">S2</text>
+<path d="M166 140 H229" fill="none" stroke="#8951BA" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="154" cy="150" r="4.5" fill="#D7BAEB" stroke="none" stroke-width="0.6"/>
+<text x="154" y="152" font-size="6" font-weight="700" fill="#713E9F" text-anchor="middle">S3</text>
+<path d="M166 150 H239" fill="none" stroke="#8951BA" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="154" cy="160" r="4.5" fill="#D7BAEB" stroke="none" stroke-width="0.6"/>
+<text x="154" y="162" font-size="6" font-weight="700" fill="#713E9F" text-anchor="middle">S4</text>
+<path d="M166 160 H226" fill="none" stroke="#8951BA" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="154" cy="170" r="4.5" fill="#D7BAEB" stroke="none" stroke-width="0.6"/>
+<text x="154" y="172" font-size="6" font-weight="700" fill="#713E9F" text-anchor="middle">S5</text>
+<path d="M166 170 H246" fill="none" stroke="#8951BA" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="154" cy="180" r="4.5" fill="#D7BAEB" stroke="none" stroke-width="0.6"/>
+<text x="154" y="182" font-size="6" font-weight="700" fill="#713E9F" text-anchor="middle">S6</text>
+<path d="M166 180 H234" fill="none" stroke="#8951BA" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="matched-density-closure-contrast">
+<ellipse cx="323" cy="153" rx="61" ry="35" fill="#FFD18A" stroke="none" stroke-width="0"/>
+<ellipse cx="446" cy="153" rx="58" ry="35" fill="#A9DEC8" stroke="none" stroke-width="0"/>
+<text x="321" y="108" font-size="7" font-weight="700" fill="#9B6224" text-anchor="middle">Independent density</text>
+<text x="321" y="118" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Utility per marginal token</text>
+<text x="445" y="108" font-size="7" font-weight="700" fill="#197357" text-anchor="middle">Dependency closure</text>
+<text x="445" y="118" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Bundle utility per token</text>
+<circle cx="293" cy="131" r="8.5" fill="#234D75" stroke="#234D75" stroke-width="0.7"/>
+<text x="293" y="133.4" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">S1</text>
+<path d="M307 129 H322 M307 133 H319" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="347" cy="131" r="8.5" fill="#FFFFFF" stroke="#719EB4" stroke-width="0.7"/>
+<text x="347" y="133.4" font-size="7" font-weight="700" fill="#547E96" text-anchor="middle">S2</text>
+<path d="M361 129 H376 M361 133 H373" fill="none" stroke="#81ACBC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="293" cy="153" r="8.5" fill="#FFFFFF" stroke="#719EB4" stroke-width="0.7"/>
+<text x="293" y="155.4" font-size="7" font-weight="700" fill="#547E96" text-anchor="middle">S3</text>
+<path d="M307 151 H322 M307 155 H319" fill="none" stroke="#81ACBC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="347" cy="153" r="8.5" fill="#234D75" stroke="#234D75" stroke-width="0.7"/>
+<text x="347" y="155.4" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">S4</text>
+<path d="M361 151 H376 M361 155 H373" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="293" cy="175" r="8.5" fill="#FFFFFF" stroke="#719EB4" stroke-width="0.7"/>
+<text x="293" y="177.4" font-size="7" font-weight="700" fill="#547E96" text-anchor="middle">S5</text>
+<path d="M307 173 H322 M307 177 H319" fill="none" stroke="#81ACBC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="347" cy="175" r="8.5" fill="#234D75" stroke="#234D75" stroke-width="0.7"/>
+<text x="347" y="177.4" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">S6</text>
+<path d="M361 173 H376 M361 177 H373" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="415" cy="131" r="8.5" fill="#234D75" stroke="#234D75" stroke-width="0.7"/>
+<text x="415" y="133.4" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">S1</text>
+<path d="M429 129 H444 M429 133 H441" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="469" cy="131" r="8.5" fill="#FFFFFF" stroke="#719EB4" stroke-width="0.7"/>
+<text x="469" y="133.4" font-size="7" font-weight="700" fill="#547E96" text-anchor="middle">S2</text>
+<path d="M483 129 H498 M483 133 H495" fill="none" stroke="#81ACBC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="415" cy="153" r="8.5" fill="#234D75" stroke="#234D75" stroke-width="0.7"/>
+<text x="415" y="155.4" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">S3</text>
+<path d="M429 151 H444 M429 155 H441" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="469" cy="153" r="8.5" fill="#FFFFFF" stroke="#719EB4" stroke-width="0.7"/>
+<text x="469" y="155.4" font-size="7" font-weight="700" fill="#547E96" text-anchor="middle">S4</text>
+<path d="M483 151 H498 M483 155 H495" fill="none" stroke="#81ACBC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="415" cy="175" r="8.5" fill="#234D75" stroke="#234D75" stroke-width="0.7"/>
+<text x="415" y="177.4" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">S5</text>
+<path d="M429 173 H444 M429 177 H441" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="469" cy="175" r="8.5" fill="#FFFFFF" stroke="#719EB4" stroke-width="0.7"/>
+<text x="469" y="177.4" font-size="7" font-weight="700" fill="#547E96" text-anchor="middle">S6</text>
+<path d="M483 173 H498 M483 177 H495" fill="none" stroke="#81ACBC" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M415 139.5 L415 141.5" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="415,144.5 413.5,141.5 416.5,141.5" fill="#234D75" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M415 161.5 L415 163.5" fill="none" stroke="#234D75" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="415,166.5 413.5,163.5 416.5,163.5" fill="#234D75" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<path d="M263 184 V194 H504 V184" fill="none" stroke="#69838D" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383.5" y="191" font-size="6.5" font-weight="700" fill="#234D75" text-anchor="middle">Matched contrast: only dependencies differ</text>
+</g>
+<g id="selection-to-reading">
+<path d="M259 184 V196.5 H15 V219 H19" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="22,219 19,220.5 19,217.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="panel-c-heading">
+<text x="14" y="193" font-size="7" font-weight="700" fill="#20354D" text-anchor="start">c</text>
+<text x="26" y="193" font-size="7" font-weight="700" fill="#20354D" text-anchor="start">Reading and evaluation</text>
+</g>
+<g id="budgeted-input">
+<text x="66" y="203" font-size="7" font-weight="700" fill="#2766A4" text-anchor="middle">Budgeted input (tokens)</text>
+<circle cx="35" cy="219" r="12.5" fill="#4284C9" stroke="none" stroke-width="0.6"/>
+<text x="35" y="221.6" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">1,024</text>
+<circle cx="66" cy="219" r="12.5" fill="#3275BA" stroke="none" stroke-width="0.6"/>
+<text x="66" y="221.6" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">2,048</text>
+<circle cx="97" cy="219" r="12.5" fill="#245F9D" stroke="none" stroke-width="0.6"/>
+<text x="97" y="221.6" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">4,096</text>
+<text x="66" y="244" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Prompt + original text</text>
+<path d="M112 219 L134 219" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="137,219 134,220.5 134,217.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="fixed-reader-chip">
+<text x="196" y="203" font-size="7" font-weight="700" fill="#713E9F" text-anchor="middle">Fixed reader</text>
+<circle cx="158" cy="219" r="18.5" fill="#D7BAEB" stroke="none" stroke-width="0.6"/>
+<rect x="147" y="206" width="23" height="26" rx="2" fill="#8951BA" stroke="#713E9F" stroke-width="0.8"/>
+<rect x="151" y="211" width="15" height="16" rx="1" fill="#EADCF4" stroke="none" stroke-width="0"/>
+<path d="M143 211 H147 M143 219 H147 M143 227 H147 M170 211 H174 M170 219 H174 M170 227 H174 M151 202 V206 M158 202 V206 M165 202 V206 M151 232 V236 M158 232 V236 M165 232 V236" fill="none" stroke="#713E9F" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="158.5" y="221.5" font-size="6.5" font-weight="700" fill="#713E9F" text-anchor="middle">LLM</text>
+<text x="181" y="216" font-size="6" font-weight="400" fill="#475F77" text-anchor="start">Qwen2.5-7B BF16</text>
+<text x="181" y="228" font-size="6" font-weight="400" fill="#475F77" text-anchor="start">Qwen2.5-14B NF4</text>
+<text x="196" y="244" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Same cited-answer prompt</text>
+<path d="M251 219 L262 219" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="265,219 262,220.5 262,217.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="cited-answer-bubble">
+<text x="312" y="203" font-size="7" font-weight="700" fill="#9B6224" text-anchor="middle">Cited answer</text>
+<path d="M275 207 H349 C354 207 357 210 357 214 V224 C357 229 354 232 350 232 H291 L279 237 V232 H275 C270 232 268 229 268 224 V214 C268 210 270 207 275 207 Z" fill="#F4BD70" stroke="#9B6224" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M276 214 H298 M276 217.5 H293" fill="none" stroke="#9B6224" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="287" y="226" font-size="7" font-weight="700" fill="#7D4B1A" text-anchor="middle">[E1]</text>
+<text x="328" y="217" font-size="6" font-weight="400" fill="#815426" text-anchor="middle">Greedy</text>
+<text x="328" y="227" font-size="6" font-weight="400" fill="#815426" text-anchor="middle">decoding</text>
+<text x="312" y="244" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Up to 1,024 new tokens</text>
+<path d="M360 219 L371 219" fill="none" stroke="#527087" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="374,219 371,220.5 371,217.5" fill="#527087" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+</g>
+<g id="paired-evaluation-instruments">
+<text x="440" y="203" font-size="7" font-weight="700" fill="#197357" text-anchor="middle">Paired evaluation</text>
+<circle cx="387" cy="219" r="10.5" fill="#299C79" stroke="none" stroke-width="0.6"/>
+<circle cx="422" cy="219" r="10.5" fill="#299C79" stroke="none" stroke-width="0.6"/>
+<circle cx="457" cy="219" r="10.5" fill="#299C79" stroke="none" stroke-width="0.6"/>
+<circle cx="492" cy="219" r="10.5" fill="#299C79" stroke="none" stroke-width="0.6"/>
+<polygon points="382.5,212 389,212 391.5,214.5 391.5,225 382.5,225" fill="#299C79" stroke="#FFFFFF" stroke-width="0.7" stroke-linejoin="round"/>
+<path d="M389 212 V214.5 H391.5" fill="none" stroke="#FFFFFF" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M384.5 217 H389 M384.5 221 H389.5" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M416 216 H427 M418 222 H429" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M451 214 H463 V221 H456 L452 225 V221 H451 Z" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M453.5 217.5 H460.5" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="492" cy="219" r="6.6" fill="none" stroke="#FFFFFF" stroke-width="0.8"/>
+<path d="M492 215 V219 L495.5 221" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="387" y="236" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Evidence</text>
+<text x="422" y="236" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Inputs</text>
+<text x="457" y="236" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Answer</text>
+<text x="492" y="236" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">Cost</text>
+<text x="440" y="244" font-size="6" font-weight="400" fill="#475F77" text-anchor="middle">180 QASPER outputs; 5 reviewers</text>
+</g>
+<g id="schematic-key">
+<circle cx="18" cy="252" r="2.5" fill="#234D75" stroke="none" stroke-width="0.6"/>
+<text x="26" y="254" font-size="6" font-weight="400" fill="#475F77" text-anchor="start">Selected source unit</text>
+<path d="M102 252 L110 252" fill="none" stroke="#234D75" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="113,252 110,253.5 110,250.5" fill="#234D75" stroke="none" stroke-width="0.6" stroke-linejoin="round"/>
+<text x="118" y="254" font-size="6" font-weight="400" fill="#475F77" text-anchor="start">Requires</text>
+<text x="504" y="254" font-size="6" font-weight="400" fill="#475F77" text-anchor="end">Main test: 4,800 answers; 7B 300 Q / 14B 100 Q</text>
+</g>
+<g id="panel-d-diagnostic-contrasts">
+<path d="M14 259 H504" fill="none" stroke="#C7D7E4" stroke-width="0.7"/>
+<text x="14" y="270" font-size="7" font-weight="700" fill="#20354D">d</text>
+<text x="26" y="270" font-size="7" font-weight="700" fill="#20354D">Complementary diagnostic contrasts</text>
+<text x="504" y="270" font-size="6" fill="#475F77" text-anchor="end">Separate activation, selection, and order</text>
+<path d="M183 278 V316 M355 278 V316" fill="none" stroke="#C7D7E4" stroke-width="0.7"/>
+<g id="training-planner-diagnostic">
+<text x="96" y="283" font-size="7" font-weight="700" fill="#713E9F" text-anchor="middle">Training mechanism</text>
+<ellipse cx="37" cy="302" rx="22" ry="14" fill="#D7BAEB" stroke="none"/>
+<path d="M29 296 L45 299 M45 301 L36 310 M35 308 L28 297" fill="none" stroke="#8951BA" stroke-width="1"/>
+<circle cx="27" cy="295" r="4" fill="#234D75" stroke="none"/>
+<circle cx="47" cy="300" r="4" fill="#234D75" stroke="none"/>
+<circle cx="35" cy="311" r="4" fill="#234D75" stroke="none"/>
+<text x="65" y="293" font-size="6" fill="#475F77">50 train Q; 7 selectors</text>
+<text x="65" y="303" font-size="6" fill="#475F77">1K / 2K; 400 new answers</text>
+<text x="65" y="313" font-size="6" fill="#713E9F">Planner-flat vs query-closure</text>
+</g>
+<g id="human-evidence-oracle-diagnostic">
+<text x="269" y="283" font-size="7" font-weight="700" fill="#197357" text-anchor="middle">QASPER evidence oracle</text>
+<polygon points="198,287 218,287 224,293 224,313 198,313" fill="#A9DEC8" stroke="#197357" stroke-width="0.8"/>
+<path d="M218 287 V293 H224 M203 298 H218 M203 303 H216 M203 308 H219" fill="none" stroke="#197357" stroke-width="0.9"/>
+<circle cx="202" cy="290" r="5" fill="#299C79" stroke="none"/>
+<path d="M199 290 L201 292 L205 287" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+<text x="233" y="293" font-size="6" fill="#475F77">300 test Q; 14B subset 100</text>
+<text x="233" y="303" font-size="6" fill="#475F77">Whole annotated paragraphs</text>
+<text x="233" y="313" font-size="6" fill="#197357">2K; 400 new answers</text>
+</g>
+<g id="longbench-matched-ordering">
+<text x="434" y="283" font-size="7" font-weight="700" fill="#9B6224" text-anchor="middle">LongBench order control</text>
+<rect x="365" y="289" width="24" height="5" rx="2.5" fill="#EEAA43" stroke="none"/>
+<rect x="370" y="298" width="24" height="5" rx="2.5" fill="#387FC8" stroke="none"/>
+<rect x="365" y="307" width="24" height="5" rx="2.5" fill="#8951BA" stroke="none"/>
+<text x="401" y="293" font-size="6" fill="#475F77">150 Q; 14B subset 50</text>
+<text x="401" y="303" font-size="6" fill="#475F77">Same chunks; two orders</text>
+<text x="401" y="313" font-size="6" fill="#9B6224">1K / 2K; 800 new answers</text>
+</g>
+</g>
+<g id="distinct-response-accounting">
+<polygon points="14,322 494,322 504,334 494,346 14,346" fill="#234D75" stroke="none"/>
+<text x="25" y="332" font-size="7" font-weight="700" fill="#FFFFFF">7,600 distinct generated responses</text>
+<text x="491" y="332" font-size="6" fill="#FFFFFF" text-anchor="end">Reused controls counted once</text>
+<text x="25" y="342" font-size="6" fill="#FFFFFF">1,200 development + 4,800 main test + 400 planner follow-up + 400 oracle + 800 LongBench</text>
+</g>
+</svg>

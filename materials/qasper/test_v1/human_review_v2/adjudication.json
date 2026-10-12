@@ -1,0 +1,351 @@
+{
+  "schema_version": "qasper_adjudication_v1",
+  "rubric_version": "five_reviewers_v2",
+  "ordering_policy": "stable_random_by_reviewer_id",
+  "study_id": "qasper_test_v1_adjudication",
+  "reviewer_id": "adjudicator_01",
+  "independent": false,
+  "ratings": {
+    "R006": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000明确报告40%提速，但同段又写Post-LN在500k、Pre-LN在700k更新达到相似损失，数字与加速方向矛盾。回答覆盖所问幅度且没有新增数字；事实关系及引用能否可靠证明加速保留不确定，不自行交换两个模型的更新数。"
+    },
+    "R008": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "unsure",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s002-p000、s003-p000支持CoNLL四种语言、16语言数据集和41语言POS实验，引用组合正确。题目未限定某一任务，而完整实验语言名单对应表格未提供；不能仅以一条替代参考认定四种语言足够，也无法核实所有语言名称，完整性保留不确定。"
+    },
+    "R016": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p001支持摘要生成和pointer softmax，s007-p001—p003、s008-p000支持简化、调优及训练优化。s001-p007描述其他记忆架构的技术选择；回答将其明确列为“possible future improvements”，没有声称本文已实施或验证效果。本题问可能改进，不要求穷尽每个方向，相关工作可支持其作为待探索方案。"
+    },
+    "R023": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "长度归一化和可调词奖励受到s000-p002、s000-p004支持，已覆盖本文实际比较的两类主要校正；不自动要求另列全部GNMT变体。但第三点把label bias说成brevity problem的较简单特例，颠倒了s012-p001的关系：原文说brevity problem是label bias的一个实例。该关键关系错误、引文不支持，属于无原文支持的新增关系。"
+    },
+    "R026": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s000-p002、s000-p004、s010-p000支持长度归一化、可调词奖励及其学习，s004-p000、s012-p001支持全局归一化解释/训练框架。s009-p000与s012-p000表明本文实际比较两类主要校正，回答均已给出；不把s005-p003的每个常用GNMT变体自动追加为必答项。"
+    },
+    "R035": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s007-p000明确采用AUC、F1，回答均给出；s007-p004明确precision/recall为模型的精确率与召回率并用于F1定义。回答没有声称后两者被单独报告或用于另一实验，可按广义评价量理解；不因把已定义的组成量列出就判新增事实或引用不支持。"
+    },
+    "R044": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p001支持摘要生成和pointer softmax，s007-p001—p003、s008-p000支持简化、调优及训练优化。s001-p007描述其他记忆架构的技术选择；回答将其明确列为“possible future improvements”，没有声称本文已实施或验证效果。本题问可能改进，不要求穷尽每个方向，相关工作可支持其作为待探索方案。"
+    },
+    "R045": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "回答以各属性预测任务及预测表现说明评估方式，与s000-p001的属性可预测性检验相符，不要求逐字复述“预测失败则未编码”的假设。s008-p000却先说Is Reply与长度无相关、后又说正相关；回答的正相关断言无法可靠核实，事实及引用支持保留不确定。其余任务描述有s007-p000、s009-p000、s010-p000依据。"
+    },
+    "R048": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s017-p003同时给69.5%、69.9%及提高0.5个百分点，显示数字的差值为0.4，原段存在不一致。无法据此认定回答的比较关系已核实，事实及引用支持保留不确定。s017-p000、s017-p004及s014-p000支持CNN/CBT成绩和集成总体结果；问题未要求逐项提供所有数据集的表格数字，完整性判是。"
+    },
+    "R053": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "unsure",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "s002-p000只说in-house数据集有16种语言，没有证明这16种与CoNLL四种完全不重叠，故“16 other”不受所引段落支持。s003-p000、s006-p001、s013-p000支持其余POS及语言对描述；完整名单和集合重叠情况缺相应表格，事实、完整性及全文是否支持该额外集合关系均保留不确定。"
+    },
+    "R054": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s003-p002把allCaps与n-gram、词嵌入和词典比例一起列入语言特征；心理特征在s003-p004另行定义。回答把allCaps归为心理特征，混淆本文的特征类别。s004-p003只描述allCaps预处理，不能支持该类别归属；其余已列文本特征成立。"
+    },
+    "R056": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000明确报告40%提速，但同段又写Post-LN在500k、Pre-LN在700k更新达到相似损失，数字与加速方向矛盾。回答覆盖所问幅度且没有新增数字；事实关系及引用能否可靠证明加速保留不确定，不自行交换两个模型的更新数。"
+    },
+    "R057": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s000-p002支持长度归一化及可调词奖励，s010-p000支持用感知器损失优化奖励。s000-p004、s009-p000和s012-p000说明本文实际比较的主要校正就是这两类；问题未要求枚举所有相关工作中的变体，未独立列GNMT校正不构成必要信息缺失。"
+    },
+    "R061": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s003-p004把非欧洲语言的大规模双语语料不足明确关联到NMT训练，回答第5点改成“SW技术实施困难”，改变了论述主体及限制关系，原文没有直接证明该新增关系。回答虽覆盖消歧、实体及非标准语言，但漏了同段与SW推理器实施直接相关的运行时开销问题，完整性判否。"
+    },
+    "R063": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s005-p000、s005-p001、s005-p003支持论证用语、Adj Noun及of/for介词差异，已述事实正确。s005-p002明确把ActVP主动动词模式列为情感论证更常见的形式，并与Adj Noun、NP Prep一起列为三类主要高精度形式；回答没有明确给出ActVP，完整性判否。"
+    },
+    "R065": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "工具名单及大多数功能描述受到s001-p000—p002支持。s001-p001对Gate只明确网页协作框架，随后“丰富可视化、无结果分析”描述的是Brat；当前引文不支持把这些属性转给Gate。相关比较表TABREF2未提供，不能确认全文是否另有Gate功能依据，事实及无支持新增事实保留不确定。"
+    },
+    "R066": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000明确报告40%提速，但同段又写Post-LN在500k、Pre-LN在700k更新达到相似损失，数字与加速方向矛盾。回答覆盖所问幅度且没有新增数字；事实关系及引用能否可靠证明加速保留不确定，不自行交换两个模型的更新数。"
+    },
+    "R068": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p000支持约10%的相对ACC提升以及两阶段系统的短时优势，s008-p001支持Shanghai 98.8%、Hefei 99.8%，s009-p001支持长时结果。回答已给主要成绩及比较方向，没有声称所有方言同样准确；题目未要求完整错误分析，不因未列易混淆方言而判必要信息缺失。"
+    },
+    "R069": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s009-p002直接支持种族偏差和情感分析的潜在扩展。s001-p001中BIBREF11是测量词嵌入偏差的WEAT，纠偏算法和共指研究分别属于其他工作；回答把这些合并为本文方法已经具备的词嵌入/共指适用关系，原文没有直接建立。s005-p007只是数据集选择，不能支持共指鲁棒性改进的断言。"
+    },
+    "R070": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s005-p000说明冰岛LT通常被认为始于世纪之交，并明确政府在2000年启动专项计划。回答已给这一时间及官方计划里程碑；“officially began”结合后半句理解为计划启动，不理解为此前完全没有技术或法定认定，属于可接受的概括。"
+    },
+    "R080": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s010-p000同时明确两组越南语数据分别由Google翻译和人工标注形成，回答按同样两种方式识别，核心指代清楚。s012-p002—p003确认其规范名称GT-sportball、UIT-ViIC；不因所引概要段未重复数据集简称，就否定它对两组数据及构建关系的支持。"
+    },
+    "R084": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "s003-p001—p007支持语义/句法消歧、实体、非标准语言及推理器运行时问题，s002-p002支持跨领域、低资源和形态丰富语言的挑战；主要挑战维度已覆盖，不要求穷尽所有未来建议。但扩展性项仅引s000-p003，该段谈一般MT体系的扩展性，并未直接建立其与SW增强的对应关系；全文问题背景成立，当前引用组合不足以证明这项关系。"
+    },
+    "R086": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s010-p000同时明确两组越南语数据分别由Google翻译和人工标注形成，回答按同样两种方式识别，核心指代清楚。s012-p002—p003确认其规范名称GT-sportball、UIT-ViIC；不因所引概要段未重复数据集简称，就否定它对两组数据及构建关系的支持。"
+    },
+    "R093": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s001-p000中BIBREF6紧随Knowtator，而Stanford manual annotation tool没有该编号。回答给Stanford也标BIBREF6，新增了不正确的文献对应关系；所引段落无法支持这一对应。其余工具名称和功能基本完整，不因这处错误另外判漏答。"
+    },
+    "R099": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s001-p000—p003支持PubMed结构化摘要、检索条件及日期、按代表性标题筛选、保留完整章节、multi-label和负例。原文确有人为选择候选标题并核验少量样本；回答说人工筛选章节，没有说全部样本由人工逐一赋标签，可接受为采集流程概括。题目不要求详列词形还原及全部清洗操作，必要信息完整。"
+    },
+    "R102": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "no",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "已给n-gram、word2vec、allCaps、violent-word ratio及longWords，这些在s003-p002、s007-p001中有依据；LIWC等补充也有s003-p004依据。s003-p002还明确使用curse-word ratio，回答未给，故文本特征清单不完整；不把s003-p004的所有心理子指标另外强加为本题必答项。"
+    },
+    "R104": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s017-p003同时给69.5%、69.9%及提高0.5个百分点，显示数字的差值为0.4，原段存在不一致。无法据此认定回答的比较关系已核实，事实及引用支持保留不确定。s017-p000、s017-p004及s014-p000支持CNN/CBT成绩和集成总体结果；问题未要求逐项提供所有数据集的表格数字，完整性判是。"
+    },
+    "R108": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s003-p002支持第一组语料，s003-p003支持第二组模型所对应的CoNLL、SST、Penn TreeBank、SNLI语料，因此必要数据集已覆盖。但回答最后把“AllenNLP models”本身另列在数据集清单中；原文把它们定义为实验系统，不能把模型本身再当数据集。该额外类别关系错误，所引段落也不支持。"
+    },
+    "R110": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s007-p000明确采用AUC、F1，回答均给出；s007-p004明确precision/recall为模型的精确率与召回率并用于F1定义。回答没有声称后两者被单独报告或用于另一实验，可按广义评价量理解；不因把已定义的组成量列出就判新增事实或引用不支持。"
+    },
+    "R112": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "种族偏差和情感分析的扩展由s009-p002直接支持。s009-p001仅提将对抗训练作为未来可探索的另一条路线，并指出相关方法与本文不可直接比较；未说明本文已有方法能应用到对抗训练。该结合能力是否成立无法可靠判断，事实保留不确定，当前引用不支持这个新增适用关系。"
+    },
+    "R121": {
+      "relevant": "yes",
+      "factual": "no",
+      "complete": "no",
+      "citations_supported": "no",
+      "unsupported_additions": "yes",
+      "notes": "s003-p004说明双语数据不足限制非欧洲语言的NMT训练，回答第3点把它直接写成SW技术实施限制，第4点又增加低资源研究不足对SW应用的因果关系，s002-p002未直接给出该因果论证。实体与非标准语言部分属实；同段的句法消歧和推理器运行时问题未覆盖，事实、完整性和引用支持判否，新增关系判是。"
+    },
+    "R122": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "unsure",
+      "notes": "s006-p000直接支持clean seq2seq调情44%、数据驱动系统低排名，以及与Annabelle Lee/Laurel Sweet近似排名。该段没有明确给这两个同排名成人bot“多数调情”的比例，后文近乎全调情指Dr Love/Sophia69。相关表TABREF36及图FIGREF38未提供，无法可靠核验附加比较；事实和全文新增事实保留不确定，当前引文对该附加关系不支持。"
+    },
+    "R123": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s011-p001明确的基础基线AllText、F8W，以及s014-p001—p002的Transformer base/big均已给出。s015-p000支持RandSample和各ESC设置作为额外对照。题目问基线，而非穷尽每一种预训练、消融和SOTA比较系统；不将s011-p002、s013-p000、s014-p003—p004的全部补充对照自动追加为必答项。"
+    },
+    "R124": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s024-p000明确报告40%提速，但同段又写Post-LN在500k、Pre-LN在700k更新达到相似损失，数字与加速方向矛盾。回答覆盖所问幅度且没有新增数字；事实关系及引用能否可靠证明加速保留不确定，不自行交换两个模型的更新数。"
+    },
+    "R128": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "结合全文回答，开头意为两组精确规模没有同时给出；随后已明确Amazon Book Review为142百万句、约为BookCorpus两倍，与s007-p002一致，等价于BookCorpus约71百万句的估计，不能把“exact未给出”判成否认该估计。s016-p000支持训练序列长度30；回答标明训练用途，虽冗余但没有以此替换语料规模。"
+    },
+    "R133": {
+      "relevant": "yes",
+      "factual": "unsure",
+      "complete": "yes",
+      "citations_supported": "unsure",
+      "unsupported_additions": "no",
+      "notes": "s006-p002—p003支持频率、性别专属性、2500个名字及匈牙利匹配，配对方式完整。末句“retaining the gender signal appropriately”未说明指保持正确的性别干预还是保留偏置信号；原文反对不当偏置信号保留。该附加关系的事实及引用支持保留不确定，不据模糊措辞直接认定新增偏差事实。"
+    },
+    "R137": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s011-p001明确的基础基线AllText、F8W，以及s014-p001—p002的Transformer base/big均已给出。s015-p000支持RandSample和各ESC设置作为额外对照。题目问基线，而非穷尽每一种预训练、消融和SOTA比较系统；不将s011-p002、s013-p000、s014-p003—p004的全部补充对照自动追加为必答项。"
+    },
+    "R149": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s004-p000直接支持MAE/RMSE作为回归性能指标，回答已单独明确说明。其余关于标签、统计分析、徽章和领域的内容有s009-p004、s002-p000—p004依据，奖励机制有s000-p003依据；这些是分析流程或相关属性，并非全被宣称为独立数值指标。按全文组织理解，关键指标与研究过程均正确，不因较宽泛的列举标题判新增事实。"
+    },
+    "R161": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p000—p001支持10%的相对提升及两个方言的准确率，s009-p001支持三阶段模型的长时表现和BGRU总体优势，s009-p003支持分阶段学习结论。已覆盖主要实验成绩及系统比较，未声称所有类别没有困难；Minnan/Kekka等错误分析不是本题明确要求的额外维度。"
+    },
+    "R167": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p001支持pointer softmax，s008-p000及s007-p001—p003支持提速、减少参数和优化训练。s001-p006—p008支持所列记忆更新、DNC、寻址及GCL技术背景；回答以未来探索方案表述，而非本文已完成的实验。题目只问可能改进，未要求列出所有迁移领域，不因未提摘要生成而判漏答。"
+    },
+    "R175": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "no",
+      "unsupported_additions": "no",
+      "notes": "主要结果由s008-p000—p001支持，未列全部易混淆方言不影响本题主要成绩的完整性。BLSTM在两阶段子任务胜过BGRU确实见s009-p000，但回答仅引s009-p001等段；s009-p001说的是三阶段BGRU总体更好。事实在全文正确，当前引用没有覆盖其系统阶段与比较方向，引用支持判否。"
+    },
+    "R178": {
+      "relevant": "yes",
+      "factual": "yes",
+      "complete": "yes",
+      "citations_supported": "yes",
+      "unsupported_additions": "no",
+      "notes": "s008-p001支持pointer softmax，s008-p000及s007-p001—p003支持提速、减少参数和优化训练。s001-p006—p008支持所列记忆更新、DNC、寻址及GCL技术背景；回答以未来探索方案表述，而非本文已完成的实验。题目只问可能改进，未要求列出所有迁移领域，不因未提摘要生成而判漏答。"
+    }
+  },
+  "reviewed_count": 42,
+  "expected_count": 42,
+  "complete": true,
+  "record_type": "actual_human_adjudication",
+  "human_labels_created": true
+}

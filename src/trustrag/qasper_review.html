@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QASPER 独立盲评</title>
+<style>
+body{font:16px/1.65 system-ui,sans-serif;color:#20302e;background:#f4f7f6;margin:0}
+main{max-width:1200px;margin:auto;padding:24px}h1,h2{line-height:1.3}
+section,details{background:white;border:1px solid #d9e1de;border-radius:10px;padding:16px;margin:14px 0}
+summary{cursor:pointer;font-weight:600}label{display:block;margin:10px 0}input,select,textarea,button{font:inherit;padding:8px;border:1px solid #b9c9c3;border-radius:5px}
+textarea{width:95%;min-height:70px}button{cursor:pointer;background:#e4efeb}nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap;position:sticky;top:0;background:#f4f7f6;padding:12px 0;z-index:1}
+.text{white-space:pre-wrap;overflow-wrap:anywhere}.warn{color:#923618}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.paragraph{border-left:3px solid #b9c9c3;padding:10px;margin:12px 0}.hint{color:#52655f;font-size:14px}
+table{border-collapse:collapse;width:100%;margin:12px 0}th,td{border:1px solid #d9e1de;padding:9px;text-align:left;vertical-align:top}th{background:#edf4f1}
+@media(max-width:850px){.grid{grid-template-columns:1fr}main{padding:12px}}
+</style>
+<main>
+<h1>科学文档问答 · 独立盲评</h1>
+<details open><summary>填写指南与独立评阅约定</summary>
+<p>五位评阅人各自完成同一180项，全部提交前不讨论、不共享记录，也不用AI代填。先填写评阅人编号，页面将为每人固定一个不同的随机顺序。每人先看问题、展示回答与对应原始段落，再按需查看替代参考和完整原文，不猜测模型或方法。建议每次完成15项，分段导出备份。</p>
+<table><thead><tr><th>判断</th><th>“是”的含义</th><th>如何区分</th></tr></thead><tbody>
+<tr><td>是否回答所问</td><td>直接回答问题指向的对象、范围或关系。</td><td>只有同主题内容而没有回答问题选“否”；回答了一部分可选“是”，漏项另在完整性判断。</td></tr>
+<tr><td>事实与关系是否正确</td><td>已陈述的关键事实、数量、比较方向和因果关系与原文一致。</td><td>正确但漏了必要信息：此项可为“是”，完整性为“否”。仅措辞不同不判错。</td></tr>
+<tr><td>必要信息是否完整</td><td>问题要求的全部必要信息均已给出。</td><td>问全部因素/条件/比较对象时应覆盖各必要项；不要求讲完论文所有相关内容。</td></tr>
+<tr><td>对应原始引用是否支持</td><td>展示回答的关键事实与关系受其标注引用对应的完整原段落支持。</td><td>事实在全文里正确，但只在未引用段落出现：事实可为“是”，此项为“否”。编号存在并不算支持。</td></tr>
+<tr><td class="warn">是否存在无原文支持的新增事实</td><td class="warn">“是”表示存在问题，是负向项。</td><td>将其他研究、推测或设计建议写成本研究已完成的事实，或增加原文未支持的关键断言，选“是”。同义表达或原文明确支持的补充不属于此类。</td></tr>
+</tbody></table>
+<p>官方抽取答案是替代参考，不是唯一的逐字标准，也不要把不同标注人的参考合并成新的必答清单。以问题范围及原文为准；参考与问题不对应、原文数字互相矛盾或公式/表格缺失时，无法可靠判断的维度选“不确定”，备注缺失项或相互冲突的段落编号，不自行改题。</p>
+<p>必要信息按问题所要求的单位和维度判断，不自动要求参考中的所有补充数字。例如问“多少个样本”，给出样本总数即可，参考中另有总词数不因此成为必答项。问题的单位或实验范围确实不清楚时，备注歧义并选“不确定”。允许原文直接支持的释义，不把新增因果或扩大适用范围当普通改写。</p>
+<p>多条引用按其组合能否覆盖关键事实判断，不要求每条背景引文单独支持整句；仍需核对主语、实验阶段、比较对象及数字单位，不能把相关工作的方法或未来建议当作本文已完成的实验。</p>
+<p><b>展示回答为空时统一编码：</b>是否回答所问=否；事实正确=不确定（无事实命题可评）；完整=否；引用支持=否；无支持新增事实=否。备注“未展示有效答案”。这些项目仍在总体分母内，不算联合成功；事实性的不确定编码单独记录。原始候选仅诊断，不代替展示回答。若展示的是文字拒答，且含“论文没有某项信息”等事实断言，仍按原文核验该断言，不直接套用空答案编码。</p>
+<details><summary>两个虚构练习例子（不是正式题目）</summary>
+<p>原文P1：“实验比较方法A、B、C。”问题：“比较了哪三个方法？”回答：“A和B [E1]”，且E1对应P1。五项依次为：是、是、否、是、否。回答正确但遗漏C，不能因此把事实正确也判为否。</p>
+<p>原文P1：“使用模型A”；P2：“耗时两小时”。问题：“实验耗时多久？”回答：“两小时 [E1]”，E1只对应P1。五项依次为：是、是、是、否、否。全文支持事实，但引用了错误段落。</p>
+</details>
+<p>“否”或“不确定”请备注具体缺失、错误或来源定位。五项中前四项全为“是”、最后一项为“否”，且已展示有效答案，才是联合成功。此页面离线运行，无上传；浏览器暂存只是便利，正式交接以导出的JSON为准。</p>
+</details>
+<section>
+<label>评阅人编号 <input id="reviewer" placeholder="reviewer_01 至 reviewer_05" autocomplete="off"></label>
+<label>背景与相关经验 <input id="background" size="55"></label>
+<label>是否接触过本系统、方法或实验结果 <input id="exposure" size="55"></label>
+<label><input type="checkbox" id="independent"> 我独立实际评阅，未查看其他人的记录，未用AI代填</label>
+<p id="save" class="hint"></p>
+</section>
+<nav><button id="previous">上一项</button><select id="jump"></select><button id="next">下一项</button><span id="progress"></span><button id="export">导出个人记录</button><label>继续填写已导出的记录 <input id="import" type="file" accept="application/json"></label></nav>
+<h2 id="case-title"></h2><section><b>问题</b><p id="question" class="text"></p><b>终端回答</b><p id="answer" class="text"></p><p id="outcome" class="warn"></p><details><summary>原始候选（仅诊断，不代替被拒收的回答）</summary><p id="raw" class="text"></p></details></section>
+<div class="grid"><div><section><h2>独立判断</h2><div id="ratings"></div><label>具体错误、缺失信息、引用问题或不确定原因（请写段落编号）<textarea id="notes"></textarea></label><p id="rating-hint" class="hint"></p></section><details><summary>官方替代参考（按需展开）</summary><div id="references"></div></details></div><div><section><h2>提示中的来源及对应完整段落</h2><div id="evidence"></div></section></div></div>
+<details><summary id="paper-title">完整论文原文</summary><p id="abstract" class="text"></p><div id="paper"></div></details>
+</main>
+<script id="packet" type="application/json">__PACKET__</script>
+<script>
+"use strict";
+const packet=JSON.parse(document.getElementById("packet").textContent);
+const fields={relevant:"是否回答所问",factual:"事实与关系是否正确",complete:"必要信息是否完整",citations_supported:"对应原始引用是否支持关键事实与关系",unsupported_additions:"是否存在无原文支持的新增事实"};
+let position=0,reviewCases=packet.cases.slice(),state={schema_version:packet.schema_version,rubric_version:"five_reviewers_v2",ordering_policy:"stable_random_by_reviewer_id",study_id:packet.study_id,reviewer_id:"",background:"",prior_exposure:"",independent:false,started_at:new Date().toISOString(),ratings:{}};
+const byId=id=>document.getElementById(id);
+const storageKey=()=>packet.study_id+":qasper-review:"+state.reviewer_id;
+const complete=r=>r&&Object.keys(fields).every(k=>["yes","no","unsure"].includes(r[k]));
+function save(){state.updated_at=new Date().toISOString();try{if(state.reviewer_id)localStorage.setItem(storageKey(),JSON.stringify(state));byId("save").textContent="已暂存；完成一段后请导出备份。";}catch{byId("save").textContent="浏览器未允许缓存，请导出保存。";}const count=packet.cases.filter(c=>complete(state.ratings[c.case_id])).length;byId("progress").textContent=count+" / "+packet.review_count+" 已填写";const r=state.ratings[reviewCases[position].case_id]||{};byId("rating-hint").textContent=Object.entries(r).some(([k,v])=>k!=="notes"&&(v==="unsure"||(k==="unsupported_additions"?v==="yes":v==="no")))&&!r.notes?.trim()?"请补充具体原因及段落定位，再交接最终记录。":"";}
+function text(tag,value,parent,className="text"){const e=document.createElement(tag);e.textContent=value;e.className=className;parent.append(e);return e;}
+function paragraph(parent,p){text("div",p.section+" · "+p.paragraph_id,parent,"hint");text("p",p.text,parent);}
+function render(){const c=reviewCases[position],doc=packet.documents[c.document_id],r=state.ratings[c.case_id]||{};byId("jump").value=position;byId("case-title").textContent="盲评项 "+c.case_id;byId("question").textContent=c.question;byId("answer").textContent=c.displayed_answer||"未展示有效回答";byId("outcome").textContent=({answered:"",abstained:"系统拒答：主指标不是成功",rejected:"输出被拒收：主指标不是成功",error:"运行错误：主指标不是成功"})[c.outcome]||"";byId("raw").textContent=c.raw_candidate||"无候选内容";
+const ratings=byId("ratings");ratings.replaceChildren();for(const [key,label] of Object.entries(fields)){const element=text("label",label+(key==="unsupported_additions"?"（负向项：是=有问题） ":" "),ratings);if(key==="unsupported_additions")element.className="warn";const select=document.createElement("select");for(const [value,name] of [["","请选择"],["yes","是"],["no","否"],["unsure","不确定"]]){const option=text("option",name,select);option.value=value;}select.value=r[key]||"";select.onchange=()=>{state.ratings[c.case_id]={...(state.ratings[c.case_id]||{}),[key]:select.value};save();};element.append(select);}byId("notes").value=r.notes||"";
+const refs=byId("references");refs.replaceChildren();c.alternative_references.forEach((ref,i)=>{text("b","替代参考 "+(i+1),refs);text("p",ref.answer_units.join("；"),refs);text("div","人工证据段落："+ref.evidence_paragraph_ids.join(", "),refs,"hint");});
+const evidence=byId("evidence");evidence.replaceChildren();for(const e of c.evidence){const detail=document.createElement("details");text("summary","["+e.citation_id+"] → "+e.original_paragraph_ids.join(", "),detail);text("b","实际选择片段",detail);text("p",e.selected_text,detail);text("b","原始完整段落",detail);for(const id of e.original_paragraph_ids){paragraph(detail,doc.paragraphs.find(p=>p.paragraph_id===id));}evidence.append(detail);}
+byId("paper-title").textContent="完整原文 · "+doc.title+" · "+c.document_id;byId("abstract").textContent=doc.abstract;const paper=byId("paper");paper.replaceChildren();for(const p of doc.paragraphs){const block=document.createElement("div");block.className="paragraph";paragraph(block,p);paper.append(block);}save();}
+function orderForReviewer(id){let seed=42;for(const ch of id)seed=(Math.imul(seed,31)+ch.charCodeAt(0))>>>0;const ordered=packet.cases.slice();for(let i=ordered.length-1;i>0;i--){seed=(Math.imul(seed,1664525)+1013904223)>>>0;const j=Math.floor(seed/4294967296*(i+1));[ordered[i],ordered[j]]=[ordered[j],ordered[i]];}return ordered;}
+function reorderReview(keepCurrent=false){const current=reviewCases[position].case_id;reviewCases=state.reviewer_id?orderForReviewer(state.reviewer_id):packet.cases.slice();byId("jump").replaceChildren();reviewCases.forEach((c,i)=>{const option=text("option",c.case_id,byId("jump"));option.value=i;});position=keepCurrent?reviewCases.findIndex(c=>c.case_id===current):0;}
+reorderReview();
+byId("jump").onchange=()=>{position=Number(byId("jump").value);render();};byId("previous").onclick=()=>{position=Math.max(0,position-1);render();};byId("next").onclick=()=>{position=Math.min(packet.cases.length-1,position+1);render();};
+byId("notes").oninput=()=>{const id=reviewCases[position].case_id;state.ratings[id]={...(state.ratings[id]||{}),notes:byId("notes").value};save();};
+function metadata(){byId("reviewer").value=state.reviewer_id;byId("background").value=state.background;byId("exposure").value=state.prior_exposure;byId("independent").checked=state.independent;}
+byId("reviewer").onchange=()=>{const id=byId("reviewer").value.trim();if(state.reviewer_id&&Object.keys(state.ratings).length&&id!==state.reviewer_id){alert("请先导出当前记录；不同评阅人应独立打开自己的页面。评阅人编号不会在填写中切换。");metadata();return;}state.reviewer_id=id;try{const stored=localStorage.getItem(storageKey());if(stored)state=JSON.parse(stored);}catch{}reorderReview(Object.keys(state.ratings).length>0);metadata();render();};
+byId("background").oninput=()=>{state.background=byId("background").value;save();};byId("exposure").oninput=()=>{state.prior_exposure=byId("exposure").value;save();};byId("independent").onchange=()=>{state.independent=byId("independent").checked;save();};
+byId("export").onclick=()=>{if(!state.reviewer_id){alert("请先填写评阅人编号。");return;}const count=packet.cases.filter(c=>complete(state.ratings[c.case_id])).length;const result={...state,reviewed_count:count,expected_count:packet.review_count,complete:count===packet.review_count,exported_at:new Date().toISOString()};const url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:"application/json"}));const link=document.createElement("a");link.href=url;link.download=packet.study_id+"."+state.reviewer_id.replace(/[^a-zA-Z0-9_-]/g,"_")+".json";link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+byId("import").onchange=async()=>{const file=byId("import").files[0];if(!file)return;try{const incoming=JSON.parse(await file.text());if(incoming.study_id!==packet.study_id||incoming.schema_version!==packet.schema_version||!incoming.reviewer_id||!incoming.ratings)throw new Error("记录不属于本次评阅");if(Object.keys(state.ratings).length&&!confirm("将恢复这份已导出的记录；请确认已备份当前填写。"))return;state=incoming;reorderReview();metadata();render();}catch(error){alert("无法导入："+error.message);}byId("import").value="";};render();
+</script>
+</html>

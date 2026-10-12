@@ -1,0 +1,233 @@
+{
+  "schema_version": "paper_release_v1",
+  "state": "public_release",
+  "unique_generated_records": 7600,
+  "independent_ratings": 900,
+  "adjudications": 42,
+  "omissions": [
+    "Git history",
+    "deployment configuration",
+    "reviewer background and timestamps",
+    "simulation records",
+    "model weights",
+    "LongBench source documents"
+  ],
+  "files": [
+    {
+      "file": "qasper/pilot/dataset.json.gz",
+      "target": "data/research/v2/qasper/pilot/dataset.json",
+      "compressed": true,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/dataset.json.gz",
+      "target": "data/research/v2/qasper/test_v1/dataset.json",
+      "compressed": true,
+      "record_count": null
+    },
+    {
+      "file": "qasper/development_v1/results/comparison.json",
+      "target": "data/research/v2/qasper/development_v1/results/comparison.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/development_v1/results/answers.qwen7b.jsonl.gz",
+      "target": "data/research/v2/qasper/development_v1/results/answers.qwen7b.jsonl",
+      "compressed": true,
+      "record_count": 600
+    },
+    {
+      "file": "qasper/development_v1/results/answers.qwen14b_nf4.jsonl.gz",
+      "target": "data/research/v2/qasper/development_v1/results/answers.qwen14b_nf4.jsonl",
+      "compressed": true,
+      "record_count": 600
+    },
+    {
+      "file": "qasper/development_v1/results/contexts.jsonl.gz",
+      "target": "data/research/v2/qasper/development_v1/results/contexts.jsonl",
+      "compressed": true,
+      "record_count": 600
+    },
+    {
+      "file": "qasper/development_v1/results/retrieval.jsonl.gz",
+      "target": "data/research/v2/qasper/development_v1/results/retrieval.jsonl",
+      "compressed": true,
+      "record_count": 50
+    },
+    {
+      "file": "qasper/test_v1/results/comparison.json",
+      "target": "data/research/v2/qasper/test_v1/results/comparison.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/results/answers.qwen7b.jsonl.gz",
+      "target": "data/research/v2/qasper/test_v1/results/answers.qwen7b.jsonl",
+      "compressed": true,
+      "record_count": 3600
+    },
+    {
+      "file": "qasper/test_v1/results/answers.qwen14b_nf4.jsonl.gz",
+      "target": "data/research/v2/qasper/test_v1/results/answers.qwen14b_nf4.jsonl",
+      "compressed": true,
+      "record_count": 1200
+    },
+    {
+      "file": "qasper/test_v1/results/contexts.jsonl.gz",
+      "target": "data/research/v2/qasper/test_v1/results/contexts.jsonl",
+      "compressed": true,
+      "record_count": 3600
+    },
+    {
+      "file": "qasper/test_v1/results/retrieval.jsonl.gz",
+      "target": "data/research/v2/qasper/test_v1/results/retrieval.jsonl",
+      "compressed": true,
+      "record_count": 300
+    },
+    {
+      "file": "qasper/development_v2/results/comparison.json",
+      "target": "data/research/v2/qasper/development_v2/results/comparison.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/development_v2/results/answers.qwen7b.jsonl.gz",
+      "target": "data/research/v2/qasper/development_v2/results/answers.qwen7b.jsonl",
+      "compressed": true,
+      "record_count": 700
+    },
+    {
+      "file": "qasper/development_v2/results/contexts.jsonl.gz",
+      "target": "data/research/v2/qasper/development_v2/results/contexts.jsonl",
+      "compressed": true,
+      "record_count": 700
+    },
+    {
+      "file": "qasper/development_v2/results/plans.jsonl.gz",
+      "target": "data/research/v2/qasper/development_v2/results/plans.jsonl",
+      "compressed": true,
+      "record_count": 50
+    },
+    {
+      "file": "qasper/oracle_v1/results/comparison.json",
+      "target": "data/research/v2/qasper/oracle_v1/results/comparison.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/oracle_v1/results/answers.qwen7b.jsonl.gz",
+      "target": "data/research/v2/qasper/oracle_v1/results/answers.qwen7b.jsonl",
+      "compressed": true,
+      "record_count": 900
+    },
+    {
+      "file": "qasper/oracle_v1/results/answers.qwen14b_nf4.jsonl.gz",
+      "target": "data/research/v2/qasper/oracle_v1/results/answers.qwen14b_nf4.jsonl",
+      "compressed": true,
+      "record_count": 300
+    },
+    {
+      "file": "qasper/oracle_v1/results/contexts.jsonl.gz",
+      "target": "data/research/v2/qasper/oracle_v1/results/contexts.jsonl",
+      "compressed": true,
+      "record_count": 900
+    },
+    {
+      "file": "longbench/multifieldqa_en/dataset_manifest.json",
+      "target": "data/research/v2/longbench/multifieldqa_en/dataset.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "longbench/multifieldqa_en/results/comparison.json",
+      "target": "data/research/v2/longbench/multifieldqa_en/results/comparison.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "longbench/multifieldqa_en/results/answers.qwen7b.jsonl.gz",
+      "target": "data/research/v2/longbench/multifieldqa_en/results/answers.qwen7b.jsonl",
+      "compressed": true,
+      "record_count": 600
+    },
+    {
+      "file": "longbench/multifieldqa_en/results/answers.qwen14b_nf4.jsonl.gz",
+      "target": "data/research/v2/longbench/multifieldqa_en/results/answers.qwen14b_nf4.jsonl",
+      "compressed": true,
+      "record_count": 200
+    },
+    {
+      "file": "longbench/multifieldqa_en/results/contexts.coordinates.jsonl.gz",
+      "target": "data/research/v2/longbench/multifieldqa_en/results/contexts.coordinates.jsonl",
+      "compressed": true,
+      "record_count": 600
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/reviews/reviewer_01.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/reviews/reviewer_01.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/reviews/reviewer_02.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/reviews/reviewer_02.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/reviews/reviewer_03.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/reviews/reviewer_03.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/reviews/reviewer_04.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/reviews/reviewer_04.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/reviews/reviewer_05.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/reviews/reviewer_05.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/adjudication.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/adjudication.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/case_map.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/private_key.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/analysis.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/analysis.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/provenance_confirmation.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/provenance_confirmation.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/adjudication_confirmation.json",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/adjudication_confirmation.json",
+      "compressed": false,
+      "record_count": null
+    },
+    {
+      "file": "qasper/test_v1/human_review_v2/review_packet.json.gz",
+      "target": "data/research/v2/qasper/test_v1/human_review_v2/review_packet.json",
+      "compressed": true,
+      "record_count": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trustrag-paper"
+version = "1.0.0"
+description = "Controlled evidence selection, input-activation diagnostics and human assessment for scientific QA"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy==1.26.4",
+    "torch==2.6.0",
+    "huggingface-hub==0.36.2",
+    "safetensors==0.8.0",
+    "sentence-transformers==3.4.1",
+    "transformers==4.49.0",
+]
+
+[project.optional-dependencies]
+research = ["accelerate==0.34.2", "bitsandbytes==0.45.3", "psutil==6.1.1"]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+figures = ["matplotlib>=3.8,<4", "reportlab>=4,<5", "svglib>=1.5,<2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+trustrag = ["qasper_review.html"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+

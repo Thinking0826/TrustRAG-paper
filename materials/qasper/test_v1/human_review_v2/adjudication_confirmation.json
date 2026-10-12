@@ -1,0 +1,7 @@
+{
+  "schema_version": "qasper_adjudication_confirmation_v1",
+  "study_id": "qasper_test_v1",
+  "adjudicator_id": "adjudicator_01",
+  "human_adjudication": true,
+  "statement": "The coordinator confirms that this record is the completed source-based human adjudication; legacy template flags were disregarded."
+}

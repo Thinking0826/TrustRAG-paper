@@ -1,0 +1,1625 @@
+{
+  "study_id": "qasper_test_v1",
+  "cases": [
+    {
+      "case_id": "R001",
+      "query_id": "9925e7d8757e8fd7411bcb5250bc08158a244fb3",
+      "document_id": "1911.05652",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R002",
+      "query_id": "56b66d19dbc5e605788166e168f36d25f5beb774",
+      "document_id": "1912.11585",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R003",
+      "query_id": "c0af44ebd7cd81270d9b5b54d4a40feed162fa54",
+      "document_id": "1801.05617",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R004",
+      "query_id": "4e59808a7f73ac499b9838d3c0ce814196a02473",
+      "document_id": "1908.06259",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R005",
+      "query_id": "76e17e648a4d1f386eb6bf61b0c24f134af872be",
+      "document_id": "1808.07231",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R006",
+      "query_id": "55bde89fc5822572f794614df3130d23537f7cf2",
+      "document_id": "2002.04745",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R007",
+      "query_id": "c25014b7e57bb2949138d64d49f356d69838bc25",
+      "document_id": "1908.10001",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R008",
+      "query_id": "3fd8eab282569b1c18b82f20d579b335ae70e79f",
+      "document_id": "1906.01502",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R009",
+      "query_id": "c25014b7e57bb2949138d64d49f356d69838bc25",
+      "document_id": "1908.10001",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R010",
+      "query_id": "71b29ab3ddcdd11dcc63b0bb55e75914c07a2217",
+      "document_id": "1908.06024",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R011",
+      "query_id": "a11b5eb928a6db9a0e3bb290ace468ff1685d253",
+      "document_id": "1901.10619",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R012",
+      "query_id": "4ed58d828cd6bb9beca1471a9fa9f5e77488b1d1",
+      "document_id": "1911.01214",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R013",
+      "query_id": "42a4ab4607a9eec42c427a817b7e898230d26444",
+      "document_id": "1909.09070",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R014",
+      "query_id": "3fd8eab282569b1c18b82f20d579b335ae70e79f",
+      "document_id": "1906.01502",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R015",
+      "query_id": "dae2f135e50d77867c3f57fc3cb0427b2443e126",
+      "document_id": "1909.10481",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R016",
+      "query_id": "ce8d8de78a21a3ba280b658ac898f73d0b52bf1b",
+      "document_id": "1910.10487",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R017",
+      "query_id": "dae2f135e50d77867c3f57fc3cb0427b2443e126",
+      "document_id": "1909.10481",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R018",
+      "query_id": "576a3ed6e4faa4c3893db632e97a52ac6e864aac",
+      "document_id": "1605.04278",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R019",
+      "query_id": "22c125c461f565f5437dac74bf19c2ef317bad86",
+      "document_id": "1703.04009",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R020",
+      "query_id": "07104dd36a0e7fdd2c211ad710de9a605495b697",
+      "document_id": "1908.05908",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R021",
+      "query_id": "e6bc11bd6cfd4b2138c29602b9b56fc5378a4293",
+      "document_id": "1709.04491",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R022",
+      "query_id": "8d683d2e1f46626ceab60ee4ab833b50b346c29e",
+      "document_id": "1908.11053",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R023",
+      "query_id": "dce27c49b9bf1919ca545e04663507d83bb42dbe",
+      "document_id": "1808.10006",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R024",
+      "query_id": "e6bc11bd6cfd4b2138c29602b9b56fc5378a4293",
+      "document_id": "1709.04491",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R025",
+      "query_id": "420862798054f736128a6f0c4393c7f9cc648b40",
+      "document_id": "1603.09405",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R026",
+      "query_id": "dce27c49b9bf1919ca545e04663507d83bb42dbe",
+      "document_id": "1808.10006",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R027",
+      "query_id": "8d683d2e1f46626ceab60ee4ab833b50b346c29e",
+      "document_id": "1908.11053",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R028",
+      "query_id": "cfa44bb587b0c05906d8325491ca9e0f024269e8",
+      "document_id": "1708.01065",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R029",
+      "query_id": "961a97149127e1123c94fbf7e2021eb1aa580ecb",
+      "document_id": "1911.09247",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R030",
+      "query_id": "511e46b5aa8e1ee9e7dc890f47fa15ef94d4a0af",
+      "document_id": "1804.07445",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R031",
+      "query_id": "c0af44ebd7cd81270d9b5b54d4a40feed162fa54",
+      "document_id": "1801.05617",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R032",
+      "query_id": "56b66d19dbc5e605788166e168f36d25f5beb774",
+      "document_id": "1912.11585",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R033",
+      "query_id": "4e59808a7f73ac499b9838d3c0ce814196a02473",
+      "document_id": "1908.06259",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R034",
+      "query_id": "de0d135b94ba3b3a4f4a0fb03df38a84f9dc9da4",
+      "document_id": "1909.02322",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R035",
+      "query_id": "643527e94e8eed1e2229915fcf8cd74d769173fc",
+      "document_id": "1908.09283",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R036",
+      "query_id": "c79f168503a60d1b08bb2c9aac124199d210b06d",
+      "document_id": "1904.02954",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R037",
+      "query_id": "ae1c4f9e33d0cd64d9a313c318ad635620303cdd",
+      "document_id": "1906.11085",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R038",
+      "query_id": "654306d26ca1d9e77f4cdbeb92b3802aa9961da1",
+      "document_id": "1912.07076",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R039",
+      "query_id": "0bc305d6b90f77f835bc4c904b22a4be07f963b2",
+      "document_id": "1606.02601",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R040",
+      "query_id": "420862798054f736128a6f0c4393c7f9cc648b40",
+      "document_id": "1603.09405",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R041",
+      "query_id": "5dfd58f91e7740899c23ebfe04b7176edce9ead2",
+      "document_id": "1809.03391",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R042",
+      "query_id": "cf68906b7d96ca0c13952a6597d1f23e5184c304",
+      "document_id": "1710.10380",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R043",
+      "query_id": "cf68906b7d96ca0c13952a6597d1f23e5184c304",
+      "document_id": "1710.10380",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R044",
+      "query_id": "ce8d8de78a21a3ba280b658ac898f73d0b52bf1b",
+      "document_id": "1910.10487",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R045",
+      "query_id": "c3befe7006ca81ce64397df654c31c11482dafbe",
+      "document_id": "1611.04887",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R046",
+      "query_id": "a11b5eb928a6db9a0e3bb290ace468ff1685d253",
+      "document_id": "1901.10619",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R047",
+      "query_id": "1acf06105f6c1930f869347ef88160f55cbf382b",
+      "document_id": "1909.00871",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R048",
+      "query_id": "df7fb8e6e44c9c5af3f19dde762c75cbf2f8452f",
+      "document_id": "1603.01547",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R049",
+      "query_id": "d9a45fea8539aac01dec01f29b7d04b44b9c2ca6",
+      "document_id": "1909.01720",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R050",
+      "query_id": "a4cf0cf372f62b2dbc7f31c600c6c66246263328",
+      "document_id": "1912.11980",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R051",
+      "query_id": "4e59808a7f73ac499b9838d3c0ce814196a02473",
+      "document_id": "1908.06259",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R052",
+      "query_id": "1128a600a813116cba9a2cf99d8568ae340f327a",
+      "document_id": "1802.08969",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R053",
+      "query_id": "3fd8eab282569b1c18b82f20d579b335ae70e79f",
+      "document_id": "1906.01502",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R054",
+      "query_id": "31894361833b3e329a1fb9ebf85a78841cff229f",
+      "document_id": "1905.08067",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R055",
+      "query_id": "568466c62dd73a025bfd9643417cdb7a611f23a1",
+      "document_id": "1909.12016",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R056",
+      "query_id": "55bde89fc5822572f794614df3130d23537f7cf2",
+      "document_id": "2002.04745",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R057",
+      "query_id": "dce27c49b9bf1919ca545e04663507d83bb42dbe",
+      "document_id": "1808.10006",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R058",
+      "query_id": "3fd8eab282569b1c18b82f20d579b335ae70e79f",
+      "document_id": "1906.01502",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R059",
+      "query_id": "1acf06105f6c1930f869347ef88160f55cbf382b",
+      "document_id": "1909.00871",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R060",
+      "query_id": "9f74f3991b8681619d95ab93a7c8733a843ddffe",
+      "document_id": "1907.10676",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R061",
+      "query_id": "9f74f3991b8681619d95ab93a7c8733a843ddffe",
+      "document_id": "1907.10676",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R062",
+      "query_id": "c0dbf3f1957f3bff3ced5b48aff60097f3eac7bb",
+      "document_id": "1808.07231",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R063",
+      "query_id": "865811dcf63a1dd3f22c62ec39ffbca4b182de31",
+      "document_id": "1709.05295",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R064",
+      "query_id": "d622564b250cffbb9ebbe6636326b15ec3c622d9",
+      "document_id": "1902.10246",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R065",
+      "query_id": "a064d01d45a33814947161ff208abb88d4353b26",
+      "document_id": "1711.03759",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R066",
+      "query_id": "55bde89fc5822572f794614df3130d23537f7cf2",
+      "document_id": "2002.04745",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R067",
+      "query_id": "8d683d2e1f46626ceab60ee4ab833b50b346c29e",
+      "document_id": "1908.11053",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R068",
+      "query_id": "0caa3162abe588f576a568d63ab9fd0e9c46ceda",
+      "document_id": "1908.02284",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R069",
+      "query_id": "76e17e648a4d1f386eb6bf61b0c24f134af872be",
+      "document_id": "1808.07231",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R070",
+      "query_id": "871f7661f5a3da366b0b5feaa36f54fd3dedae8e",
+      "document_id": "2003.09244",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R071",
+      "query_id": "c0dbf3f1957f3bff3ced5b48aff60097f3eac7bb",
+      "document_id": "1808.07231",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R072",
+      "query_id": "71b29ab3ddcdd11dcc63b0bb55e75914c07a2217",
+      "document_id": "1908.06024",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R073",
+      "query_id": "c72e05dd41ed5a85335ffeca5a03e71514e60e84",
+      "document_id": "1911.12559",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R074",
+      "query_id": "d9a45fea8539aac01dec01f29b7d04b44b9c2ca6",
+      "document_id": "1909.01720",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R075",
+      "query_id": "bab4ae97afd598a11d1fc7c05c6fdb98c30cafe0",
+      "document_id": "1711.03759",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R076",
+      "query_id": "865811dcf63a1dd3f22c62ec39ffbca4b182de31",
+      "document_id": "1709.05295",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R077",
+      "query_id": "568466c62dd73a025bfd9643417cdb7a611f23a1",
+      "document_id": "1909.12016",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R078",
+      "query_id": "1128a600a813116cba9a2cf99d8568ae340f327a",
+      "document_id": "1802.08969",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R079",
+      "query_id": "511e46b5aa8e1ee9e7dc890f47fa15ef94d4a0af",
+      "document_id": "1804.07445",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R080",
+      "query_id": "23252644c04a043f630a855b563666dd57179d98",
+      "document_id": "2002.00175",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R081",
+      "query_id": "a4cf0cf372f62b2dbc7f31c600c6c66246263328",
+      "document_id": "1912.11980",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R082",
+      "query_id": "22c125c461f565f5437dac74bf19c2ef317bad86",
+      "document_id": "1703.04009",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R083",
+      "query_id": "c0dbf3f1957f3bff3ced5b48aff60097f3eac7bb",
+      "document_id": "1808.07231",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R084",
+      "query_id": "9f74f3991b8681619d95ab93a7c8733a843ddffe",
+      "document_id": "1907.10676",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R085",
+      "query_id": "420862798054f736128a6f0c4393c7f9cc648b40",
+      "document_id": "1603.09405",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R086",
+      "query_id": "23252644c04a043f630a855b563666dd57179d98",
+      "document_id": "2002.00175",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R087",
+      "query_id": "576a3ed6e4faa4c3893db632e97a52ac6e864aac",
+      "document_id": "1605.04278",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R088",
+      "query_id": "de0d135b94ba3b3a4f4a0fb03df38a84f9dc9da4",
+      "document_id": "1909.02322",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R089",
+      "query_id": "a82a12a22a45d9507bc359635ffe9574f15e0810",
+      "document_id": "1702.02584",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R090",
+      "query_id": "511e46b5aa8e1ee9e7dc890f47fa15ef94d4a0af",
+      "document_id": "1804.07445",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R091",
+      "query_id": "71b29ab3ddcdd11dcc63b0bb55e75914c07a2217",
+      "document_id": "1908.06024",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R092",
+      "query_id": "c3befe7006ca81ce64397df654c31c11482dafbe",
+      "document_id": "1611.04887",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R093",
+      "query_id": "a064d01d45a33814947161ff208abb88d4353b26",
+      "document_id": "1711.03759",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R094",
+      "query_id": "c0af44ebd7cd81270d9b5b54d4a40feed162fa54",
+      "document_id": "1801.05617",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R095",
+      "query_id": "a82a12a22a45d9507bc359635ffe9574f15e0810",
+      "document_id": "1702.02584",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R096",
+      "query_id": "94c22f72665dfac3e6e72e40f2ffbc8c99bf849c",
+      "document_id": "1906.01615",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R097",
+      "query_id": "c0af44ebd7cd81270d9b5b54d4a40feed162fa54",
+      "document_id": "1801.05617",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R098",
+      "query_id": "77c3416578b52994227bae7f2529600f02183e12",
+      "document_id": "2003.11687",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R099",
+      "query_id": "ae1c4f9e33d0cd64d9a313c318ad635620303cdd",
+      "document_id": "1906.11085",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R100",
+      "query_id": "1acf06105f6c1930f869347ef88160f55cbf382b",
+      "document_id": "1909.00871",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R101",
+      "query_id": "576a3ed6e4faa4c3893db632e97a52ac6e864aac",
+      "document_id": "1605.04278",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R102",
+      "query_id": "31894361833b3e329a1fb9ebf85a78841cff229f",
+      "document_id": "1905.08067",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R103",
+      "query_id": "871f7661f5a3da366b0b5feaa36f54fd3dedae8e",
+      "document_id": "2003.09244",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R104",
+      "query_id": "df7fb8e6e44c9c5af3f19dde762c75cbf2f8452f",
+      "document_id": "1603.01547",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R105",
+      "query_id": "42a4ab4607a9eec42c427a817b7e898230d26444",
+      "document_id": "1909.09070",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R106",
+      "query_id": "46e660becd727c994a2a35c6587e15ea8bf8272d",
+      "document_id": "1809.08935",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R107",
+      "query_id": "0bc305d6b90f77f835bc4c904b22a4be07f963b2",
+      "document_id": "1606.02601",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R108",
+      "query_id": "9dd8ce48a2a59a63ae6366ab8b2b8828e5ae7f35",
+      "document_id": "1904.02954",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R109",
+      "query_id": "d9a45fea8539aac01dec01f29b7d04b44b9c2ca6",
+      "document_id": "1909.01720",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R110",
+      "query_id": "643527e94e8eed1e2229915fcf8cd74d769173fc",
+      "document_id": "1908.09283",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R111",
+      "query_id": "23252644c04a043f630a855b563666dd57179d98",
+      "document_id": "2002.00175",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R112",
+      "query_id": "76e17e648a4d1f386eb6bf61b0c24f134af872be",
+      "document_id": "1808.07231",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R113",
+      "query_id": "23252644c04a043f630a855b563666dd57179d98",
+      "document_id": "2002.00175",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R114",
+      "query_id": "471683ba6251b631f38a24d42b6dba6f52dee429",
+      "document_id": "2003.12139",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R115",
+      "query_id": "654306d26ca1d9e77f4cdbeb92b3802aa9961da1",
+      "document_id": "1912.07076",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R116",
+      "query_id": "a82a12a22a45d9507bc359635ffe9574f15e0810",
+      "document_id": "1702.02584",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R117",
+      "query_id": "56b66d19dbc5e605788166e168f36d25f5beb774",
+      "document_id": "1912.11585",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R118",
+      "query_id": "9925e7d8757e8fd7411bcb5250bc08158a244fb3",
+      "document_id": "1911.05652",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R119",
+      "query_id": "76e17e648a4d1f386eb6bf61b0c24f134af872be",
+      "document_id": "1808.07231",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R120",
+      "query_id": "94c22f72665dfac3e6e72e40f2ffbc8c99bf849c",
+      "document_id": "1906.01615",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R121",
+      "query_id": "9f74f3991b8681619d95ab93a7c8733a843ddffe",
+      "document_id": "1907.10676",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R122",
+      "query_id": "371433bd3fb5042bacec4dfad3cfff66147c14f0",
+      "document_id": "1909.04387",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R123",
+      "query_id": "a4cf0cf372f62b2dbc7f31c600c6c66246263328",
+      "document_id": "1912.11980",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R124",
+      "query_id": "55bde89fc5822572f794614df3130d23537f7cf2",
+      "document_id": "2002.04745",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R125",
+      "query_id": "c79f168503a60d1b08bb2c9aac124199d210b06d",
+      "document_id": "1904.02954",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R126",
+      "query_id": "42a4ab4607a9eec42c427a817b7e898230d26444",
+      "document_id": "1909.09070",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R127",
+      "query_id": "9dd8ce48a2a59a63ae6366ab8b2b8828e5ae7f35",
+      "document_id": "1904.02954",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R128",
+      "query_id": "cf68906b7d96ca0c13952a6597d1f23e5184c304",
+      "document_id": "1710.10380",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R129",
+      "query_id": "cf68906b7d96ca0c13952a6597d1f23e5184c304",
+      "document_id": "1710.10380",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R130",
+      "query_id": "9925e7d8757e8fd7411bcb5250bc08158a244fb3",
+      "document_id": "1911.05652",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R131",
+      "query_id": "77c3416578b52994227bae7f2529600f02183e12",
+      "document_id": "2003.11687",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R132",
+      "query_id": "cfa44bb587b0c05906d8325491ca9e0f024269e8",
+      "document_id": "1708.01065",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R133",
+      "query_id": "1acf06105f6c1930f869347ef88160f55cbf382b",
+      "document_id": "1909.00871",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R134",
+      "query_id": "a67a2d9acad1787b636ca2681330f4c29a0b0254",
+      "document_id": "1606.07043",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R135",
+      "query_id": "4ed58d828cd6bb9beca1471a9fa9f5e77488b1d1",
+      "document_id": "1911.01214",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R136",
+      "query_id": "5dfd58f91e7740899c23ebfe04b7176edce9ead2",
+      "document_id": "1809.03391",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R137",
+      "query_id": "a4cf0cf372f62b2dbc7f31c600c6c66246263328",
+      "document_id": "1912.11980",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R138",
+      "query_id": "07104dd36a0e7fdd2c211ad710de9a605495b697",
+      "document_id": "1908.05908",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R139",
+      "query_id": "46e660becd727c994a2a35c6587e15ea8bf8272d",
+      "document_id": "1809.08935",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R140",
+      "query_id": "d622564b250cffbb9ebbe6636326b15ec3c622d9",
+      "document_id": "1902.10246",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R141",
+      "query_id": "dce27c49b9bf1919ca545e04663507d83bb42dbe",
+      "document_id": "1808.10006",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R142",
+      "query_id": "a67a2d9acad1787b636ca2681330f4c29a0b0254",
+      "document_id": "1606.07043",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R143",
+      "query_id": "643527e94e8eed1e2229915fcf8cd74d769173fc",
+      "document_id": "1908.09283",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R144",
+      "query_id": "56b66d19dbc5e605788166e168f36d25f5beb774",
+      "document_id": "1912.11585",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "abstained"
+    },
+    {
+      "case_id": "R145",
+      "query_id": "2ae66798333b905172e2c0954e9808662ab7f221",
+      "document_id": "1903.00384",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R146",
+      "query_id": "643527e94e8eed1e2229915fcf8cd74d769173fc",
+      "document_id": "1908.09283",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R147",
+      "query_id": "d9a45fea8539aac01dec01f29b7d04b44b9c2ca6",
+      "document_id": "1909.01720",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R148",
+      "query_id": "c0dbf3f1957f3bff3ced5b48aff60097f3eac7bb",
+      "document_id": "1808.07231",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R149",
+      "query_id": "2ae66798333b905172e2c0954e9808662ab7f221",
+      "document_id": "1903.00384",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R150",
+      "query_id": "9925e7d8757e8fd7411bcb5250bc08158a244fb3",
+      "document_id": "1911.05652",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R151",
+      "query_id": "576a3ed6e4faa4c3893db632e97a52ac6e864aac",
+      "document_id": "1605.04278",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R152",
+      "query_id": "420862798054f736128a6f0c4393c7f9cc648b40",
+      "document_id": "1603.09405",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R153",
+      "query_id": "180c7bea8caf05ca97d9962b90eb454be4176425",
+      "document_id": "1910.01160",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R154",
+      "query_id": "4ed58d828cd6bb9beca1471a9fa9f5e77488b1d1",
+      "document_id": "1911.01214",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R155",
+      "query_id": "c72e05dd41ed5a85335ffeca5a03e71514e60e84",
+      "document_id": "1911.12559",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R156",
+      "query_id": "0caa3162abe588f576a568d63ab9fd0e9c46ceda",
+      "document_id": "1908.02284",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R157",
+      "query_id": "471683ba6251b631f38a24d42b6dba6f52dee429",
+      "document_id": "2003.12139",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R158",
+      "query_id": "22c125c461f565f5437dac74bf19c2ef317bad86",
+      "document_id": "1703.04009",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R159",
+      "query_id": "22c125c461f565f5437dac74bf19c2ef317bad86",
+      "document_id": "1703.04009",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R160",
+      "query_id": "961a97149127e1123c94fbf7e2021eb1aa580ecb",
+      "document_id": "1911.09247",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R161",
+      "query_id": "0caa3162abe588f576a568d63ab9fd0e9c46ceda",
+      "document_id": "1908.02284",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R162",
+      "query_id": "0bc305d6b90f77f835bc4c904b22a4be07f963b2",
+      "document_id": "1606.02601",
+      "model": "qwen14b_nf4",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R163",
+      "query_id": "871f7661f5a3da366b0b5feaa36f54fd3dedae8e",
+      "document_id": "2003.09244",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R164",
+      "query_id": "a82a12a22a45d9507bc359635ffe9574f15e0810",
+      "document_id": "1702.02584",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R165",
+      "query_id": "8d683d2e1f46626ceab60ee4ab833b50b346c29e",
+      "document_id": "1908.11053",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R166",
+      "query_id": "961a97149127e1123c94fbf7e2021eb1aa580ecb",
+      "document_id": "1911.09247",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R167",
+      "query_id": "ce8d8de78a21a3ba280b658ac898f73d0b52bf1b",
+      "document_id": "1910.10487",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R168",
+      "query_id": "871f7661f5a3da366b0b5feaa36f54fd3dedae8e",
+      "document_id": "2003.09244",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R169",
+      "query_id": "371433bd3fb5042bacec4dfad3cfff66147c14f0",
+      "document_id": "1909.04387",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R170",
+      "query_id": "4ed58d828cd6bb9beca1471a9fa9f5e77488b1d1",
+      "document_id": "1911.01214",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R171",
+      "query_id": "961a97149127e1123c94fbf7e2021eb1aa580ecb",
+      "document_id": "1911.09247",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R172",
+      "query_id": "71b29ab3ddcdd11dcc63b0bb55e75914c07a2217",
+      "document_id": "1908.06024",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R173",
+      "query_id": "511e46b5aa8e1ee9e7dc890f47fa15ef94d4a0af",
+      "document_id": "1804.07445",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R174",
+      "query_id": "0bc305d6b90f77f835bc4c904b22a4be07f963b2",
+      "document_id": "1606.02601",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R175",
+      "query_id": "0caa3162abe588f576a568d63ab9fd0e9c46ceda",
+      "document_id": "1908.02284",
+      "model": "qwen7b",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R176",
+      "query_id": "bab4ae97afd598a11d1fc7c05c6fdb98c30cafe0",
+      "document_id": "1711.03759",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R177",
+      "query_id": "180c7bea8caf05ca97d9962b90eb454be4176425",
+      "document_id": "1910.01160",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R178",
+      "query_id": "ce8d8de78a21a3ba280b658ac898f73d0b52bf1b",
+      "document_id": "1910.10487",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R179",
+      "query_id": "42a4ab4607a9eec42c427a817b7e898230d26444",
+      "document_id": "1909.09070",
+      "model": "qwen7b",
+      "method": "closure_greedy",
+      "budget": 2048,
+      "status": "answered"
+    },
+    {
+      "case_id": "R180",
+      "query_id": "4e59808a7f73ac499b9838d3c0ce814196a02473",
+      "document_id": "1908.06259",
+      "model": "qwen14b_nf4",
+      "method": "density_atoms",
+      "budget": 2048,
+      "status": "answered"
+    }
+  ]
+}

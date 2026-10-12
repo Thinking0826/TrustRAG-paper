@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="183mm" height="116.769444mm" viewBox="0 0 518.740157 331" font-family="Helvetica">
+<title>Selection, dependency closure, and matched ordering</title>
+<desc>A fictional source folio feeds two matched packing paths. Independent density proposes S2 alone; dependency closure proposes the mutual list group S1, S2 and S3. Both paths use the same utilities and complete-input token limit, and copy admitted original source slices without rewriting. Separate diagnostic contrasts replace retrieved excerpts with whole human-annotated paragraphs in the QASPER oracle, or retain exactly the same selected chunks and change only their order in LongBench. The units and drawings are illustrative; they do not encode measured outcomes.</desc>
+<rect x="0" y="0" width="518.740157" height="331" fill="#FFFFFF"/>
+<g id="a-source-folio">
+<text x="14" y="12" font-size="7" fill="#20354D" font-weight="700" text-anchor="start">a</text>
+<text x="26" y="12" font-size="7" fill="#20354D" font-weight="700" text-anchor="start">Source units</text>
+<polygon points="18,31 159,31 170,42 170,178 18,178" fill="#E9F2FC" stroke="#A6C8E8" stroke-width="0.85" stroke-linejoin="round"/>
+<path d="M 159 31 L 159 42 L 170 42" fill="none" stroke="#A6C8E8" stroke-width="0.85" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="14,27 155,27 166,38 166,174 14,174" fill="#CBE3F9" stroke="#2766A4" stroke-width="0.85" stroke-linejoin="round"/>
+<path d="M 155 27 L 155 38 L 166 38" fill="none" stroke="#2766A4" stroke-width="0.85" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="24" y="34" width="121" height="12" rx="3" fill="#387FC8"/>
+<text x="84.5" y="42.5" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">Same section; original order</text>
+<path d="M 25 48 C 20 48 20 49 20 54 L 20 81 C 20 86 16 86 16 88 C 16 90 20 90 20 95 L 20 122 C 20 127 20 128 25 128" fill="none" stroke="#713E9F" stroke-width="1.35" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="27" y="77" width="125" height="26" rx="3" fill="#AAD1F3"/>
+<circle cx="34" cy="60" r="5.2" fill="#387FC8" stroke="none" stroke-width="1"/>
+<text x="34" y="62.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S1</text>
+<text x="47" y="62.3" font-size="6.5" fill="#20354D" font-weight="400" text-anchor="start">Evaluation datasets:</text>
+<text x="47" y="73" font-size="6" fill="#713E9F" font-weight="700" text-anchor="start">Introduction</text>
+<circle cx="34" cy="88" r="5.2" fill="#234D75" stroke="#EEAA43" stroke-width="1.1"/>
+<text x="34" y="90.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S2</text>
+<text x="47" y="90.3" font-size="6.5" fill="#20354D" font-weight="700" text-anchor="start">(1) Dataset Alpha.</text>
+<text x="47" y="101" font-size="6" fill="#2766A4" font-weight="700" text-anchor="start">Marked item 1</text>
+<circle cx="34" cy="116" r="5.2" fill="#387FC8" stroke="none" stroke-width="1"/>
+<text x="34" y="118.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S3</text>
+<text x="47" y="118.3" font-size="6.5" fill="#20354D" font-weight="400" text-anchor="start">(2) Dataset Beta.</text>
+<text x="47" y="129" font-size="6" fill="#2766A4" font-weight="700" text-anchor="start">Marked item 2</text>
+<path d="M 27 134 L 152 134" fill="none" stroke="#A3BFDA" stroke-width="0.65" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="34" cy="150" r="5.2" fill="#8EABC0" stroke="none" stroke-width="1"/>
+<text x="34" y="152.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S4</text>
+<text x="47" y="152.3" font-size="6.2" fill="#20354D" font-weight="400" text-anchor="start">Each dataset was preprocessed.</text>
+<text x="47" y="163" font-size="6" fill="#475F77" font-weight="700" text-anchor="start">Outside the list group</text>
+<rect x="14" y="183" width="49" height="13" rx="6.5" fill="#8951BA"/>
+<text x="38.5" y="191.6" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">List cue</text>
+<text x="69" y="191.5" font-size="6" fill="#713E9F" font-weight="400" text-anchor="start">Mutual requirements</text>
+<text x="14" y="202" font-size="6" fill="#475F77" font-weight="400" text-anchor="start">Source ID + character interval</text>
+</g>
+<g id="b-matched-additions">
+<ellipse cx="282" cy="69" rx="70" ry="27" fill="#FFD18A" stroke="#EEAA43" stroke-width="0.7"/>
+<ellipse cx="281" cy="161" rx="70" ry="37" fill="#A9DEC8" stroke="#299C79" stroke-width="0.7"/>
+<text x="207" y="12" font-size="7" fill="#20354D" font-weight="700" text-anchor="start">b</text>
+<text x="219" y="12" font-size="7" fill="#20354D" font-weight="700" text-anchor="start">Matched packing</text>
+<path d="M 168 88 L 178 88" fill="none" stroke="#2766A4" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="178,88 174,86 174,90" fill="#2766A4" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="188" cy="88" r="10" fill="#234D75" stroke="#EEAA43" stroke-width="1.5"/>
+<text x="188" y="90.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S2</text>
+<text x="188" y="107" font-size="6" fill="#475F77" font-weight="400" text-anchor="middle">Candidate</text>
+<path d="M 198 88 L 205 88" fill="none" stroke="#527087" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 205 88 L 205 69 L 217 69" fill="none" stroke="#9B6224" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="217,69 213,67 213,71" fill="#9B6224" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 205 88 L 205 153 L 218 153" fill="none" stroke="#197357" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="218,153 214,151 214,155" fill="#197357" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<text x="284" y="33" font-size="7" fill="#9B6224" font-weight="700" text-anchor="middle">Independent density</text>
+<polygon points="231,54 318,54 331,67 331,82 231,82" fill="#234D75" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="318,54 318,67 331,67" fill="#5683A7" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<text x="245" y="72.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">S2</text>
+<path d="M 258 63 L 308 63" fill="none" stroke="#FFFFFF" stroke-width="1.05" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 258 69 L 302 69" fill="none" stroke="#FFFFFF" stroke-width="1.05" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 258 75 L 287 75" fill="none" stroke="#FFFFFF" stroke-width="1.05" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="284" y="102" font-size="7" fill="#9B6224" font-weight="700" text-anchor="middle">A = {S2}</text>
+<text x="284" y="120" font-size="7" fill="#197357" font-weight="700" text-anchor="middle">Dependency closure</text>
+<path d="M 258.5 143 L 296.5 143" fill="none" stroke="#713E9F" stroke-width="1.15" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="258.5,143 262.3,145 262.3,141" fill="#713E9F" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="296.5,143 292.7,141 292.7,145" fill="#713E9F" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 254.435 152.225 L 269.565 168.775" fill="none" stroke="#713E9F" stroke-width="1.15" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="254.435,152.225 255.523,156.379 258.475,153.68" fill="#713E9F" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="269.565,168.775 268.477,164.621 265.525,167.32" fill="#713E9F" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 300.891 152.963 L 286.435 168.775" fill="none" stroke="#713E9F" stroke-width="1.15" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="300.891,152.963 296.851,154.418 299.803,157.117" fill="#713E9F" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="286.435,168.775 290.475,167.32 287.523,164.621" fill="#713E9F" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="246" cy="143" r="11" fill="#234D75" stroke="none" stroke-width="1"/>
+<text x="246" y="145.4" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">S1</text>
+<circle cx="310" cy="143" r="12" fill="#234D75" stroke="#EEAA43" stroke-width="1.5"/>
+<text x="310" y="145.4" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">S2</text>
+<circle cx="278" cy="178" r="11" fill="#234D75" stroke="none" stroke-width="1"/>
+<text x="278" y="180.4" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">S3</text>
+<text x="284" y="205" font-size="6.5" fill="#197357" font-weight="700" text-anchor="middle">A = C(S2) = {S1, S2, S3}</text>
+</g>
+<g id="c-source-copy">
+<text x="372" y="12" font-size="7" fill="#20354D" font-weight="700">c</text>
+<text x="384" y="12" font-size="7" fill="#20354D" font-weight="700">Verbatim copy</text>
+<path d="M 351 69 L 365 69" fill="none" stroke="#9B6224" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="365,69 361,67 361,71" fill="#9B6224"/>
+<text x="438" y="48" font-size="7" fill="#9B6224" font-weight="700" text-anchor="middle">One source unit</text>
+<polygon points="372,55 494,55 504,65 504,83 372,83" fill="#FFD18A" stroke="#9B6224" stroke-width="0.85" stroke-linejoin="round"/>
+<path d="M 494 55 L 494 65 L 504 65" fill="none" stroke="#9B6224" stroke-width="0.85" stroke-linejoin="round"/>
+<circle cx="383" cy="69" r="5.7" fill="#234D75" stroke="#EEAA43" stroke-width="1.1"/>
+<text x="383" y="71.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S2</text>
+<text x="395" y="71.3" font-size="6.5" fill="#20354D">(1) Dataset Alpha.</text>
+<path d="M 384 88 L 393 88 L 393 93 L 384 93 Z" fill="none" stroke="#9B6224" stroke-width="0.8"/>
+<text x="401" y="93" font-size="6" fill="#475F77">Original slice, not rewritten</text>
+<path d="M 354 165 L 365 165" fill="none" stroke="#197357" stroke-width="1.2" stroke-linecap="round"/>
+<polygon points="365,165 361,163 361,167" fill="#197357"/>
+<text x="438" y="131" font-size="7" fill="#197357" font-weight="700" text-anchor="middle">Complete list group</text>
+<polygon points="378,137 494,137 500,143 500,153 378,153" fill="#A9DEC8" stroke="#197357" stroke-width="0.75" stroke-linejoin="round"/>
+<path d="M 494 137 L 494 143 L 500 143" fill="none" stroke="#197357" stroke-width="0.75"/>
+<circle cx="386" cy="145" r="4.7" fill="#234D75"/>
+<text x="386" y="147.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S1</text>
+<text x="397" y="147.3" font-size="6.5" fill="#20354D">Evaluation datasets:</text>
+<polygon points="372,157 494,157 504,167 504,176 372,176" fill="#299C79" stroke="#197357" stroke-width="0.85" stroke-linejoin="round"/>
+<path d="M 494 157 L 494 167 L 504 167" fill="none" stroke="#197357" stroke-width="0.85"/>
+<circle cx="383" cy="166" r="5.7" fill="#234D75" stroke="#EEAA43" stroke-width="1.1"/>
+<text x="383" y="168.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S2</text>
+<text x="395" y="168.3" font-size="6.5" fill="#FFFFFF">(1) Dataset Alpha.</text>
+<polygon points="378,180 494,180 500,186 500,196 378,196" fill="#A9DEC8" stroke="#197357" stroke-width="0.75" stroke-linejoin="round"/>
+<path d="M 494 180 L 494 186 L 500 186" fill="none" stroke="#197357" stroke-width="0.75"/>
+<circle cx="386" cy="188" r="4.7" fill="#234D75"/>
+<text x="386" y="190.1" font-size="6" fill="#FFFFFF" font-weight="700" text-anchor="middle">S3</text>
+<text x="397" y="190.3" font-size="6.5" fill="#20354D">(2) Dataset Beta.</text>
+<text x="438" y="205" font-size="6" fill="#475F77" text-anchor="middle">Source coordinates retained</text>
+</g>
+<g id="shared-token-accounting">
+<polygon points="14,212 494,212 504,223 494,234 14,234" fill="#234D75" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 24 217 L 35 217 L 35 229 L 24 229 Z" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 27 220 L 32 220 M 27 223 L 32 223 M 27 226 L 30 226" fill="none" stroke="#FFFFFF" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="169" y="221" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">Same objective, same utilities</text>
+<text x="169" y="230" font-size="6.2" fill="#FFFFFF" font-weight="400" text-anchor="middle">Added utility / marginal rendered tokens</text>
+<path d="M 305 216 L 305 230" fill="none" stroke="#87ABC7" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="402" y="221" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle">Full input T &lt;= B</text>
+<text x="402" y="230" font-size="6" fill="#FFFFFF" font-weight="400" text-anchor="middle">Same tokenizer and prompt</text>
+</g>
+<circle cx="18" cy="240" r="2.5" fill="#234D75" stroke="none" stroke-width="1"/>
+<text x="26" y="242" font-size="6" fill="#475F77" font-weight="400" text-anchor="start">Added unit</text>
+<path d="M 77 240 L 89 240" fill="none" stroke="#713E9F" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon points="89,240 85,238 85,242" fill="#713E9F" stroke="none" stroke-width="1" stroke-linejoin="round"/>
+<text x="95" y="242" font-size="6" fill="#475F77" font-weight="400" text-anchor="start">Requires</text>
+<circle cx="172" cy="240" r="3" fill="#234D75" stroke="#EEAA43" stroke-width="1"/>
+<text x="180" y="242" font-size="6" fill="#475F77" font-weight="400" text-anchor="start">Candidate S2</text>
+<text x="504" y="242" font-size="6" fill="#475F77" font-weight="400" text-anchor="end">Illustrative units; no measured outcomes</text>
+<g id="d-separate-selection-and-order">
+<path d="M14 250 H504" fill="none" stroke="#C7D7E4" stroke-width="0.7"/>
+<text x="14" y="262" font-size="7" font-weight="700" fill="#20354D">d</text>
+<text x="26" y="262" font-size="7" font-weight="700" fill="#20354D">Separate changes to evidence content and order</text>
+<path d="M261 272 V318" fill="none" stroke="#C7D7E4" stroke-width="0.7"/>
+<g id="oracle-content-intervention">
+<text x="130" y="276" font-size="7" font-weight="700" fill="#197357" text-anchor="middle">QASPER: change selected evidence</text>
+<polygon points="19,285 93,285 99,291 99,310 19,310" fill="#FFD18A" stroke="#9B6224" stroke-width="0.7"/>
+<path d="M93 285 V291 H99 M27 295 H58 M64 295 H88 M27 302 H46 M53 302 H88" fill="none" stroke="#9B6224" stroke-width="1"/>
+<path d="M107 298 H147" fill="none" stroke="#527087" stroke-width="1"/>
+<polygon points="151,298 147,296 147,300" fill="#527087"/>
+<polygon points="157,285 240,285 246,291 246,310 157,310" fill="#A9DEC8" stroke="#197357" stroke-width="0.7"/>
+<path d="M240 285 V291 H246 M165 294 H233 M165 299 H226 M165 304 H235" fill="none" stroke="#197357" stroke-width="1"/>
+<text x="59" y="320" font-size="6" fill="#9B6224" text-anchor="middle">Retrieved excerpts</text>
+<text x="201" y="320" font-size="6" fill="#197357" text-anchor="middle">Whole annotated paragraphs</text>
+</g>
+<g id="longbench-order-only-intervention">
+<text x="387" y="276" font-size="7" font-weight="700" fill="#713E9F" text-anchor="middle">LongBench: retain identical chunks</text>
+<rect x="280" y="286" width="21" height="22" rx="3" fill="#8951BA"/>
+<rect x="304" y="286" width="21" height="22" rx="3" fill="#387FC8"/>
+<rect x="328" y="286" width="21" height="22" rx="3" fill="#EEAA43"/>
+<text x="290.5" y="300" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">E3</text>
+<text x="314.5" y="300" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">E1</text>
+<text x="338.5" y="300" font-size="7" font-weight="700" fill="#20354D" text-anchor="middle">E2</text>
+<path d="M357 298 H394" fill="none" stroke="#527087" stroke-width="1"/>
+<polygon points="398,298 394,296 394,300" fill="#527087"/>
+<text x="377" y="288" font-size="6" fill="#475F77" text-anchor="middle">Reorder</text>
+<rect x="406" y="286" width="21" height="22" rx="3" fill="#387FC8"/>
+<rect x="430" y="286" width="21" height="22" rx="3" fill="#EEAA43"/>
+<rect x="454" y="286" width="21" height="22" rx="3" fill="#8951BA"/>
+<text x="416.5" y="300" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">E1</text>
+<text x="440.5" y="300" font-size="7" font-weight="700" fill="#20354D" text-anchor="middle">E2</text>
+<text x="464.5" y="300" font-size="7" font-weight="700" fill="#FFFFFF" text-anchor="middle">E3</text>
+<text x="314.5" y="320" font-size="6" fill="#475F77" text-anchor="middle">Relevance order</text>
+<text x="440.5" y="320" font-size="6" fill="#475F77" text-anchor="middle">Document order</text>
+</g>
+</g>
+</svg>
